@@ -1,0 +1,43 @@
+baseURL: http://localhost:1313/
+languageCode: en-us
+title: My App Documentation
+theme: hextra
+
+# Theme-specific configuration
+params:
+  description: Documentation and guides for My App
+  navbar:
+    logo:
+      path: logo.svg # You can add your logo later in the static directory
+    items:
+      - name: Documentation
+        pageRef: /docs
+      - name: About
+        pageRef: /about
+      - name: GitHub
+        url: https://github.com/yourusername/your-repo
+        external: true
+
+  sidebar:
+    enabled: true
+
+menu:
+  main:
+    - name: Documentation
+      pageRef: /docs
+      weight: 1
+    - name: About
+      pageRef: /about
+      weight: 2
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+module:
+  hugoVersion:
+    extended: true
+  imports:
+    - path: github.com/imfing/hextra
+      disable: false
