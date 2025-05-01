@@ -1,5 +1,5 @@
 ---
-title: Installation Guide
+title: Getting Started
 weight: 2
 ---
 

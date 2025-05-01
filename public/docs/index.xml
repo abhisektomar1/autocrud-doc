@@ -16,11 +16,75 @@
     
     
     <item>
-      <title>Installation Guide</title>
-      <link>http://localhost:1313/docs/installation/</link>
+      <title>Welcome</title>
+      <link>http://localhost:1313/docs/welcome/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/installation/</guid>
+      <guid>http://localhost:1313/docs/welcome/</guid>
+      <description>
+        
+        
+        &lt;p&gt;NocoDB is a no-code database platform that allows teams to collaborate and build applications with ease of a familiar and intuitive spreadsheet interface. This allows even non-developers or business users to become software creators.&lt;/p&gt;
+&lt;p&gt;NocoDB works by connecting to any relational database and transforming them into a smart spreadsheet interface! This allows you to build no-code applications collaboratively with teams. NocoDB currently works with MySQL, PostgreSQL &amp;amp; SQLite (only in Open Source) databases.&lt;/p&gt;
+&lt;p&gt;Also, NocoDB&amp;rsquo;s app store allows you to build business workflows on views with combination of Slack, Microsoft Teams, Discord, Twilio, Whatsapp, Email &amp;amp; any 3rd party APIs too. Plus NocoDB provides programmatic access to APIs so that you can build integrations with Zapier / Integromat and custom applications too.&lt;/p&gt;
+&lt;h2&gt;Features&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;features&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#features&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Rich Spreadsheet Interface&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;rich-spreadsheet-interface&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#rich-spreadsheet-interface&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;⚡  Basic Operations: Create, Read, Update and Delete on Tables, Fields, and Records&lt;/li&gt;
+&lt;li&gt;⚡  Fields Operations: Sort, Filter, Hide / Un-hide Fields&lt;/li&gt;
+&lt;li&gt;⚡  Multiple Views Types: Grid (By default), Gallery, Form View and Kanban View&lt;/li&gt;
+&lt;li&gt;⚡  View Permissions Types: Collaborative Views &amp;amp; Locked Views&lt;/li&gt;
+&lt;li&gt;⚡  Share Bases / Views: either Public or Private (with Password Protected)&lt;/li&gt;
+&lt;li&gt;⚡  Variant Cell Types: ID, Links, Lookup, Rollup, SingleLineText, Attachment, Currency, Formula and etc&lt;/li&gt;
+&lt;li&gt;⚡  Access Control with Roles : Fine-grained Access Control at different levels&lt;/li&gt;
+&lt;li&gt;⚡  and more &amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;App Store for Workflow Automations&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;app-store-for-workflow-automations&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#app-store-for-workflow-automations&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;We provide different integrations in three main categories. See &lt;a href=&#34;http://localhost:1313/account-settings/oss-specific-details#app-store&#34; target=&#34;_blank&#34;&gt;App Store&lt;/a&gt; for details.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;⚡  Chat : Slack, Discord, Mattermost, and etc&lt;/li&gt;
+&lt;li&gt;⚡  Email : AWS SES, SMTP, MailerSend, and etc&lt;/li&gt;
+&lt;li&gt;⚡  Storage : AWS S3, Google Cloud Storage, Minio, and etc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Programmatic Access&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;programmatic-access&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#programmatic-access&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;We provide the following ways to let users invoke actions in a programmatic way. You can use a token (either JWT or Social Auth) to sign your requests for authorization to NocoDB.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;⚡  REST APIs&lt;/li&gt;
+&lt;li&gt;⚡  NocoDB SDK&lt;/li&gt;
+&lt;li&gt;⚡  SQL Access : Run SQL queries on your data source from NocoDB UI itself (Coming soon!)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sync Schema&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;sync-schema&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#sync-schema&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;We allow you to sync schema changes if you have made changes outside NocoDB GUI. However, it has to be noted then you will have to bring your own schema migrations for moving from environment to others. See &lt;a href=&#34;http://localhost:1313/data-sources/sync-with-data-source&#34; target=&#34;_blank&#34;&gt;Sync Schema&lt;/a&gt; for details.&lt;/p&gt;
+&lt;h3&gt;Audit&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;audit&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#audit&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;We are keeping all the user operation logs under one place. See &lt;a href=&#34;http://localhost:1313/data-sources/actions-on-data-sources#audit-logs&#34; target=&#34;_blank&#34;&gt;Audit&lt;/a&gt; for details.&lt;/p&gt;
+&lt;h2&gt;Why are we building this?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;why-are-we-building-this&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#why-are-we-building-this&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Most internet businesses equip themselves with either spreadsheet or a database to solve their business needs. Spreadsheets are used by a Billion+ humans collaboratively every single day. However, we are way off working at similar speeds on databases which are way more powerful tools when it comes to computing. Attempts to solve this with SaaS offerings has meant horrible access controls, vendor lockin, data lockin, abrupt price changes &amp;amp; most importantly a glass ceiling on what&amp;rsquo;s possible in the future.&lt;/p&gt;
+&lt;h2&gt;Our Mission&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;our-mission&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#our-mission&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Our mission is to provide the most powerful no-code interface for databases which is Open Source to every single internet business in the world. This would not only democratise access to a powerful computing tool but also bring forth a billion+ people who will have radical tinkering-and-building abilities on internet.&lt;/p&gt;
+&lt;h2&gt;How can I contribute to NocoDB&amp;rsquo;s development ?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;how-can-i-contribute-to-nocodbs-development-&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#how-can-i-contribute-to-nocodbs-development-&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Please refer to &lt;a href=&#34;https://github.com/nocodb/nocodb/blob/develop/.github/CONTRIBUTING.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; for the contribution guidelines.&lt;/p&gt;
+&lt;p&gt;&amp;lt;img src=&amp;ldquo;&lt;a href=&#34;https://static.scarf.sh/a.png?x-pxid=c12a77cc-855e-4602-8a0f-614b2d0da56a%22&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://static.scarf.sh/a.png?x-pxid=c12a77cc-855e-4602-8a0f-614b2d0da56a&#34;&lt;/a&gt; style={{margin: &amp;lsquo;0px&amp;rsquo;}} /&amp;gt;&lt;/p&gt;
+&lt;h2&gt;Where can I join the NocoDB community?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;where-can-i-join-the-nocodb-community&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#where-can-i-join-the-nocodb-community&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Follow us for daily updates, content, and other activities with our community:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@nocodb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Youtube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/nocodb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://discord.nocodb.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Discord&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/nocodb/nocodb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://community.nocodb.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Community Forums&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/company/nocodb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/NocoDB/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Reddit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>http://localhost:1313/docs/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/getting-started/</guid>
       <description>
         
         
@@ -101,6 +165,32 @@
 &lt;li&gt;&lt;a href=&#34;http://localhost:1313/docs/troubleshooting&#34; &gt;Troubleshooting&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/tables/install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/tables/install/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/workspaces/create/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/workspaces/create/</guid>
+      <description>
+        
+        
+        
       </description>
     </item>
     
