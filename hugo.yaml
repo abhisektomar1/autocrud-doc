@@ -1,22 +1,14 @@
 baseURL: http://localhost:1313/
 languageCode: en-us
-title: My App Documentation
+title: AutoCRUD
 theme: hextra
 
 # Theme-specific configuration
 params:
-  description: Documentation and guides for My App
+  description: Documentation and guides for AutoCRUD
   navbar:
     logo:
-      path: logo.svg # You can add your logo later in the static directory
-    items:
-      - name: Documentation
-        pageRef: /docs
-      - name: About
-        pageRef: /about
-      - name: GitHub
-        url: https://github.com/yourusername/your-repo
-        external: true
+      path: /images/logo.svg
 
   sidebar:
     enabled: true
@@ -26,9 +18,21 @@ menu:
     - name: Documentation
       pageRef: /docs
       weight: 1
+    - name: Blog
+      pageRef: /blog
+      weight: 2
     - name: About
       pageRef: /about
-      weight: 2
+      weight: 3
+    - name: Search
+      weight: 4
+      params:
+        type: search
+    - name: GitHub
+      weight: 5
+      url: "https://github.com/imfing/hextra"
+      params:
+        icon: github
 
 markup:
   goldmark:
@@ -38,6 +42,7 @@ markup:
 module:
   hugoVersion:
     extended: true
-  imports:
-    - path: github.com/imfing/hextra
-      disable: false
+
+imports:
+  - path: github.com/imfing/hextra
+    disable: false

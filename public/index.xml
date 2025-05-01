@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My App Documentation – </title>
+    <title>AutoCRUD – </title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My App Documentation</description>
+    <description>Recent content on AutoCRUD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 30 Apr 2025 13:27:56 +0530</lastBuildDate>
