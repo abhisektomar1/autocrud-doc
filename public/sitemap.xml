@@ -7,9 +7,17 @@
   </url><url>
     <loc>http://localhost:1313/docs/welcome/</loc>
   </url><url>
+    <loc>http://localhost:1313/docs/workspaces/overview/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/workspaces/create/</loc>
+  </url><url>
     <loc>http://localhost:1313/docs/getting-started/</loc>
   </url><url>
+    <loc>http://localhost:1313/docs/workspaces/collaboration/</loc>
+  </url><url>
     <loc>http://localhost:1313/docs/workspaces/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/workspaces/actions/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/tables/</loc>
   </url><url>
@@ -19,8 +27,6 @@
     <lastmod>2025-04-30T13:27:56+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/tables/install/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/workspaces/create/</loc>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>

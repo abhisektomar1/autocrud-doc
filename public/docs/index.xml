@@ -24,7 +24,9 @@
       <description>
         
         
-        &lt;p&gt;AutoCRUD is a no-code database platform that allows teams to collaborate and build applications with ease of a familiar and intuitive spreadsheet interface. This allows even non-developers or business users to become software creators.&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/WordpressTransparent.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h2&gt;AutoCrud&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;autocrud&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#autocrud&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;AutoCRUD is a no-code database platform that allows teams to collaborate and build applications with ease of a familiar and intuitive spreadsheet interface. This allows even non-developers or business users to become software creators.&lt;/p&gt;
 &lt;p&gt;AutoCRUD works by connecting to any relational database and transforming them into a smart spreadsheet interface! This allows you to build no-code applications collaboratively with teams. AutoCRUD currently works with MySQL, PostgreSQL &amp;amp; SQLite (only in Open Source) databases.&lt;/p&gt;
 &lt;p&gt;Also, AutoCRUD&amp;rsquo;s app store allows you to build business workflows on views with combination of Slack, Microsoft Teams, Discord, Twilio, Whatsapp, Email &amp;amp; any 3rd party APIs too. Plus AutoCRUD provides programmatic access to APIs so that you can build integrations with Zapier / Integromat and custom applications too.&lt;/p&gt;
 &lt;h2&gt;Features&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;features&#34;&gt;&lt;/span&gt;
@@ -80,6 +82,127 @@
     </item>
     
     <item>
+      <title>Workspace Overview</title>
+      <link>http://localhost:1313/docs/workspaces/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/workspaces/overview/</guid>
+      <description>
+        
+        
+        &lt;p&gt;A workspace in AutoCRUD is your dedicated environment for managing databases, views, and team collaborations. Think of it as your project&amp;rsquo;s home base where you can:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Organize multiple databases and their connections&lt;/li&gt;
+&lt;li&gt;Create and manage different views of your data&lt;/li&gt;
+&lt;li&gt;Control access permissions for team members&lt;/li&gt;
+&lt;li&gt;Monitor workspace activity and usage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Key Features&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;key-features&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#key-features&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Central Management&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;central-management&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#central-management&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Single dashboard to manage all your database connections&lt;/li&gt;
+&lt;li&gt;Overview of all active views and collaborators&lt;/li&gt;
+&lt;li&gt;Usage statistics and activity logs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Security&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;security&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#security&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Role-based access control&lt;/li&gt;
+&lt;li&gt;Secure database credential management&lt;/li&gt;
+&lt;li&gt;Audit trails for all workspace activities&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Organization&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;organization&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#organization&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Logical grouping of related databases and views&lt;/li&gt;
+&lt;li&gt;Easy navigation between different projects&lt;/li&gt;
+&lt;li&gt;Customizable workspace settings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Getting Started&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;getting-started&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#getting-started&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;To make the most of your workspace:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Configure your workspace settings&lt;/li&gt;
+&lt;li&gt;Connect your first database&lt;/li&gt;
+&lt;li&gt;Invite team members&lt;/li&gt;
+&lt;li&gt;Create your first view&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For detailed instructions on creating a workspace, see the &lt;a href=&#34;http://localhost:1313/docs/workspaces/create-workspace&#34; &gt;Create Workspace&lt;/a&gt; guide.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Create Workspace</title>
+      <link>http://localhost:1313/docs/workspaces/create/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/workspaces/create/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This guide walks you through the process of creating and configuring a new workspace in AutoCRUD.&lt;/p&gt;
+&lt;h2&gt;Prerequisites&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;prerequisites&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#prerequisites&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Before creating a workspace, ensure you have:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;An AutoCRUD account&lt;/li&gt;
+&lt;li&gt;Necessary database credentials (if connecting a database)&lt;/li&gt;
+&lt;li&gt;Admin privileges (for organization workspaces)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Steps to Create a Workspace&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;steps-to-create-a-workspace&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#steps-to-create-a-workspace&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;1. Access Workspace Creation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-access-workspace-creation&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-access-workspace-creation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Click on the &amp;ldquo;Workspaces&amp;rdquo; dropdown in the top navigation&lt;/li&gt;
+&lt;li&gt;Select &amp;ldquo;Create Workspace&amp;rdquo; button&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2. Basic Configuration&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-basic-configuration&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-basic-configuration&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Enter workspace name&lt;/li&gt;
+&lt;li&gt;Choose workspace type:
+&lt;ul&gt;
+&lt;li&gt;Personal Workspace&lt;/li&gt;
+&lt;li&gt;Organization Workspace&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Set workspace visibility:
+&lt;ul&gt;
+&lt;li&gt;Private (default)&lt;/li&gt;
+&lt;li&gt;Public&lt;/li&gt;
+&lt;li&gt;Custom&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;3. Advanced Settings&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-advanced-settings&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-advanced-settings&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Configure workspace timezone&lt;/li&gt;
+&lt;li&gt;Set default language&lt;/li&gt;
+&lt;li&gt;Choose storage preferences&lt;/li&gt;
+&lt;li&gt;Configure backup settings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;4. Security Settings&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;4-security-settings&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-security-settings&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Set up access controls&lt;/li&gt;
+&lt;li&gt;Configure authentication methods&lt;/li&gt;
+&lt;li&gt;Define password policies&lt;/li&gt;
+&lt;li&gt;Set up 2FA requirements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Best Practices&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;best-practices&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#best-practices&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Use clear, descriptive workspace names&lt;/li&gt;
+&lt;li&gt;Set up proper access controls from the start&lt;/li&gt;
+&lt;li&gt;Document workspace configuration&lt;/li&gt;
+&lt;li&gt;Review security settings regularly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Next Steps&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#next-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;After creating your workspace:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/docs/workspaces/collaboration/&#34; &gt;Add team members&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Connect your databases&lt;/li&gt;
+&lt;li&gt;Create your first view&lt;/li&gt;
+&lt;li&gt;Set up automations&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Getting Started</title>
       <link>http://localhost:1313/docs/getting-started/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -88,27 +211,34 @@
       <description>
         
         
-        &lt;p&gt;Version: Latest&lt;/p&gt;
+        &lt;div class=&#34;hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-orange-100 hx:bg-orange-50 hx:text-orange-800 hx:dark:border-orange-400/30 hx:dark:bg-orange-400/20 hx:dark:text-orange-300&#34;&gt;
+  &lt;div class=&#34;hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2&#34;&gt;&lt;div class=&#34;hx:select-none hx:text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;🌐&lt;/div&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
+    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;Version: Latest&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
 &lt;p&gt;Get started with AutoCRUD by understanding its core concepts and components.&lt;/p&gt;
 &lt;div class=&#34;hextra-cards hx:mt-4 hx:gap-4 hx:grid not-prose&#34; style=&#34;--hextra-cards-grid-cols: 2;&#34;&gt;
 &lt;a
   class=&#34;hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/docs/workspaces&#34;
-    &gt;&lt;span class=&#34;hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z&#34;/&gt;&lt;/svg&gt;Workspaces&lt;/span&gt;&lt;div class=&#34;hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2&#34;&gt;Workspaces in AutoCRUD are containers for your projects. Learn how to organize and manage your database applications effectively.&lt;/div&gt;&lt;div class=&#34;hextra-badge hextra-card-tag&#34;&gt;
+    &gt;&lt;span class=&#34;hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z&#34;/&gt;&lt;/svg&gt;Workspaces&lt;/span&gt;&lt;div class=&#34;hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2&#34;&gt;Workspaces in AutoCRUD are containers for your projects.&lt;/div&gt;&lt;div class=&#34;hextra-badge hextra-card-tag&#34;&gt;
   &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200&#34;&gt;Core Feature&lt;/div&gt;
 &lt;/div&gt;&lt;/a&gt;
 &lt;a
   class=&#34;hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/docs/tables&#34;
-    &gt;&lt;span class=&#34;hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z&#34;/&gt;&lt;/svg&gt;Tables&lt;/span&gt;&lt;div class=&#34;hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2&#34;&gt;Tables are the foundation of your data structure. Discover how to create, modify, and manage your database tables with ease.&lt;/div&gt;&lt;div class=&#34;hextra-badge hextra-card-tag&#34;&gt;
+    &gt;&lt;span class=&#34;hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z&#34;/&gt;&lt;/svg&gt;Tables&lt;/span&gt;&lt;div class=&#34;hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2&#34;&gt;Tables are the foundation of your data structure.&lt;/div&gt;&lt;div class=&#34;hextra-badge hextra-card-tag&#34;&gt;
   &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200&#34;&gt;Database&lt;/div&gt;
 &lt;/div&gt;&lt;/a&gt;
 &lt;a
   class=&#34;hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/docs/flows&#34;
-    &gt;&lt;span class=&#34;hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50&#34;&gt;Flows&lt;/span&gt;&lt;div class=&#34;hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2&#34;&gt;Automate your workflows and create powerful data pipelines with AutoCRUD&amp;rsquo;s flow system.&lt;/div&gt;&lt;div class=&#34;hextra-badge hextra-card-tag&#34;&gt;
+    &gt;&lt;span class=&#34;hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50&#34;&gt;Flows&lt;/span&gt;&lt;div class=&#34;hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2&#34;&gt;Automate your workflows and create powerful..&lt;/div&gt;&lt;div class=&#34;hextra-badge hextra-card-tag&#34;&gt;
   &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:border-yellow-100 hx:bg-yellow-50 hx:text-yellow-900 hx:dark:border-yellow-200/30 hx:dark:bg-yellow-700/30 hx:dark:text-yellow-200&#34;&gt;Automation&lt;/div&gt;
 &lt;/div&gt;&lt;/a&gt;
 &lt;a
   class=&#34;hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/docs/global-variables&#34;
-    &gt;&lt;span class=&#34;hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M4.871 4A17.926 17.926 0 003 12c0 2.874.673 5.59 1.871 8m14.13 0a17.926 17.926 0 001.87-8c0-2.874-.673-5.59-1.87-8M9 9h1.246a1 1 0 01.961.725l1.586 5.55a1 1 0 00.961.725H15m1-7h-.08a2 2 0 00-1.519.698L9.6 15.302A2 2 0 018.08 16H8&#34;/&gt;&lt;/svg&gt;Global Variables&lt;/span&gt;&lt;div class=&#34;hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2&#34;&gt;Learn how to use global variables to maintain consistent configuration across your entire application.&lt;/div&gt;&lt;div class=&#34;hextra-badge hextra-card-tag&#34;&gt;
+    &gt;&lt;span class=&#34;hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M4.871 4A17.926 17.926 0 003 12c0 2.874.673 5.59 1.871 8m14.13 0a17.926 17.926 0 001.87-8c0-2.874-.673-5.59-1.87-8M9 9h1.246a1 1 0 01.961.725l1.586 5.55a1 1 0 00.961.725H15m1-7h-.08a2 2 0 00-1.519.698L9.6 15.302A2 2 0 018.08 16H8&#34;/&gt;&lt;/svg&gt;Global Variables&lt;/span&gt;&lt;div class=&#34;hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2&#34;&gt;Learn how to use global variables&amp;hellip;&lt;/div&gt;&lt;div class=&#34;hextra-badge hextra-card-tag&#34;&gt;
   &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;Configuration&lt;/div&gt;
 &lt;/div&gt;&lt;/a&gt;
 &lt;/div&gt;
@@ -141,24 +271,209 @@
     </item>
     
     <item>
-      <title></title>
-      <link>http://localhost:1313/docs/tables/install/</link>
+      <title>Workspace Collaboration</title>
+      <link>http://localhost:1313/docs/workspaces/collaboration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/tables/install/</guid>
+      <guid>http://localhost:1313/docs/workspaces/collaboration/</guid>
       <description>
         
         
+        &lt;p&gt;Learn how to effectively collaborate with team members in your AutoCRUD workspace.&lt;/p&gt;
+&lt;h2&gt;User Roles and Permissions&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;user-roles-and-permissions&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#user-roles-and-permissions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Available Roles&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;available-roles&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#available-roles&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Workspace Admin&lt;/strong&gt;: Full control over workspace settings and user management&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Developer&lt;/strong&gt;: Can create and modify views, connect databases&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Editor&lt;/strong&gt;: Can modify data and create views&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Viewer&lt;/strong&gt;: Can only view data and use existing views&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Permission Categories&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;permission-categories&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#permission-categories&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Workspace Management&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;User management&lt;/li&gt;
+&lt;li&gt;Workspace settings&lt;/li&gt;
+&lt;li&gt;Billing and subscriptions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Data Access&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Database connections&lt;/li&gt;
+&lt;li&gt;View creation&lt;/li&gt;
+&lt;li&gt;Data modification&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Collaboration Features&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Comments and annotations&lt;/li&gt;
+&lt;li&gt;Sharing capabilities&lt;/li&gt;
+&lt;li&gt;Audit log access&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Adding Team Members&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;adding-team-members&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#adding-team-members&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Navigate to Workspace Settings&lt;/li&gt;
+&lt;li&gt;Select &amp;ldquo;Team Members&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Click &amp;ldquo;Invite Member&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Enter email address&lt;/li&gt;
+&lt;li&gt;Assign appropriate role&lt;/li&gt;
+&lt;li&gt;Set custom permissions (optional)&lt;/li&gt;
+&lt;li&gt;Send invitation&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Best Practices for Collaboration&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;best-practices-for-collaboration&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#best-practices-for-collaboration&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Communication&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;communication&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#communication&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Use built-in commenting features&lt;/li&gt;
+&lt;li&gt;Document view changes&lt;/li&gt;
+&lt;li&gt;Maintain clear naming conventions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Security&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;security&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#security&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Regularly review access permissions&lt;/li&gt;
+&lt;li&gt;Monitor audit logs&lt;/li&gt;
+&lt;li&gt;Update security policies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Organization&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;organization&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#organization&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Create team-specific views&lt;/li&gt;
+&lt;li&gt;Use view templates&lt;/li&gt;
+&lt;li&gt;Maintain workspace documentation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Team Management&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;team-management&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#team-management&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Activity Monitoring&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;activity-monitoring&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#activity-monitoring&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Track user actions&lt;/li&gt;
+&lt;li&gt;Review access patterns&lt;/li&gt;
+&lt;li&gt;Monitor resource usage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Access Control&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;access-control&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#access-control&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Regular permission audits&lt;/li&gt;
+&lt;li&gt;Role updates as needed&lt;/li&gt;
+&lt;li&gt;Temporary access management&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Tips for Effective Collaboration&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;tips-for-effective-collaboration&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#tips-for-effective-collaboration&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Establish clear workflows&lt;/li&gt;
+&lt;li&gt;Document processes&lt;/li&gt;
+&lt;li&gt;Regular team training&lt;/li&gt;
+&lt;li&gt;Feedback collection&lt;/li&gt;
+&lt;li&gt;Security awareness&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Actions on Workspace</title>
+      <link>http://localhost:1313/docs/workspaces/actions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/workspaces/actions/</guid>
+      <description>
         
+        
+        &lt;p&gt;Learn about the various actions and operations you can perform within an AutoCRUD workspace.&lt;/p&gt;
+&lt;h2&gt;Database Operations&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;database-operations&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#database-operations&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Connection Management&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;connection-management&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#connection-management&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Add new database connections&lt;/li&gt;
+&lt;li&gt;Modify existing connections&lt;/li&gt;
+&lt;li&gt;Test connection health&lt;/li&gt;
+&lt;li&gt;View connection metrics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Data Source Actions&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;data-source-actions&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#data-source-actions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Import/Export data&lt;/li&gt;
+&lt;li&gt;Run SQL queries&lt;/li&gt;
+&lt;li&gt;Schedule backups&lt;/li&gt;
+&lt;li&gt;Monitor performance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;View Management&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;view-management&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#view-management&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Create Views&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-views&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#create-views&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Grid views&lt;/li&gt;
+&lt;li&gt;Kanban boards&lt;/li&gt;
+&lt;li&gt;Calendar views&lt;/li&gt;
+&lt;li&gt;Gallery views&lt;/li&gt;
+&lt;li&gt;Form views&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;View Operations&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;view-operations&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#view-operations&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Filter data&lt;/li&gt;
+&lt;li&gt;Sort records&lt;/li&gt;
+&lt;li&gt;Group information&lt;/li&gt;
+&lt;li&gt;Share views&lt;/li&gt;
+&lt;li&gt;Set permissions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Automation Actions&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;automation-actions&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#automation-actions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Workflow Automation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;workflow-automation&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#workflow-automation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Create triggers&lt;/li&gt;
+&lt;li&gt;Set up actions&lt;/li&gt;
+&lt;li&gt;Define conditions&lt;/li&gt;
+&lt;li&gt;Schedule tasks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Integration Options&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;integration-options&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#integration-options&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Connect with external services&lt;/li&gt;
+&lt;li&gt;Set up webhooks&lt;/li&gt;
+&lt;li&gt;Configure API access&lt;/li&gt;
+&lt;li&gt;Manage authentication&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Administrative Actions&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;administrative-actions&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#administrative-actions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Workspace Settings&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;workspace-settings&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#workspace-settings&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Update workspace details&lt;/li&gt;
+&lt;li&gt;Manage storage&lt;/li&gt;
+&lt;li&gt;Configure security&lt;/li&gt;
+&lt;li&gt;Set up backups&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;User Management&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;user-management&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#user-management&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Add/remove users&lt;/li&gt;
+&lt;li&gt;Modify permissions&lt;/li&gt;
+&lt;li&gt;Track activity&lt;/li&gt;
+&lt;li&gt;Manage roles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Maintenance Operations&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;maintenance-operations&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#maintenance-operations&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Health Monitoring&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;health-monitoring&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#health-monitoring&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;View system status&lt;/li&gt;
+&lt;li&gt;Check performance metrics&lt;/li&gt;
+&lt;li&gt;Monitor resource usage&lt;/li&gt;
+&lt;li&gt;Track error logs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Security Actions&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;security-actions&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#security-actions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Audit access logs&lt;/li&gt;
+&lt;li&gt;Review security settings&lt;/li&gt;
+&lt;li&gt;Manage API keys&lt;/li&gt;
+&lt;li&gt;Configure 2FA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Best Practices&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;best-practices&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#best-practices&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Regular maintenance checks&lt;/li&gt;
+&lt;li&gt;Security audits&lt;/li&gt;
+&lt;li&gt;Performance optimization&lt;/li&gt;
+&lt;li&gt;Backup verification&lt;/li&gt;
+&lt;li&gt;User access reviews&lt;/li&gt;
+&lt;/ol&gt;
+
       </description>
     </item>
     
     <item>
       <title></title>
-      <link>http://localhost:1313/docs/workspaces/create/</link>
+      <link>http://localhost:1313/docs/tables/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/workspaces/create/</guid>
+      <guid>http://localhost:1313/docs/tables/install/</guid>
       <description>
         
         

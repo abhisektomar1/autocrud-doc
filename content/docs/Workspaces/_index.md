@@ -11,6 +11,7 @@ Workspaces in AutoCRUD help you organize your projects and manage access control
 A workspace is a container that helps you:
 
 - Organize related tables and data
+- Create flows wit your desired integrations
 - Manage team access and permissions
 - Configure environment-specific settings
 - Track usage and activity
@@ -19,7 +20,7 @@ A workspace is a container that helps you:
 
 To create a new workspace:
 
-1. Click on the "Workspaces" menu in the sidebar
+1. Click on the " Create Workspaces" button on starter page
 2. Select "New Workspace"
 3. Enter a name and description
 4. Configure workspace settings
