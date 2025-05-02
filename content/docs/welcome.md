@@ -4,11 +4,11 @@ description: AutoCRUD Documentation
 weight: 1
 ---
 
-NocoDB is a no-code database platform that allows teams to collaborate and build applications with ease of a familiar and intuitive spreadsheet interface. This allows even non-developers or business users to become software creators.
+AutoCRUD is a no-code database platform that allows teams to collaborate and build applications with ease of a familiar and intuitive spreadsheet interface. This allows even non-developers or business users to become software creators.
 
-NocoDB works by connecting to any relational database and transforming them into a smart spreadsheet interface! This allows you to build no-code applications collaboratively with teams. NocoDB currently works with MySQL, PostgreSQL & SQLite (only in Open Source) databases.
+AutoCRUD works by connecting to any relational database and transforming them into a smart spreadsheet interface! This allows you to build no-code applications collaboratively with teams. AutoCRUD currently works with MySQL, PostgreSQL & SQLite (only in Open Source) databases.
 
-Also, NocoDB's app store allows you to build business workflows on views with combination of Slack, Microsoft Teams, Discord, Twilio, Whatsapp, Email & any 3rd party APIs too. Plus NocoDB provides programmatic access to APIs so that you can build integrations with Zapier / Integromat and custom applications too.
+Also, AutoCRUD's app store allows you to build business workflows on views with combination of Slack, Microsoft Teams, Discord, Twilio, Whatsapp, Email & any 3rd party APIs too. Plus AutoCRUD provides programmatic access to APIs so that you can build integrations with Zapier / Integromat and custom applications too.
 
 ## Features
 
@@ -33,15 +33,15 @@ We provide different integrations in three main categories. See <a href="/accoun
 
 ### Programmatic Access
 
-We provide the following ways to let users invoke actions in a programmatic way. You can use a token (either JWT or Social Auth) to sign your requests for authorization to NocoDB.
+We provide the following ways to let users invoke actions in a programmatic way. You can use a token (either JWT or Social Auth) to sign your requests for authorization to AutoCRUD.
 
 - ⚡ &nbsp;REST APIs
-- ⚡ &nbsp;NocoDB SDK
-- ⚡ &nbsp;SQL Access : Run SQL queries on your data source from NocoDB UI itself (Coming soon!)
+- ⚡ &nbsp;AutoCRUD SDK
+- ⚡ &nbsp;SQL Access : Run SQL queries on your data source from AutoCRUD UI itself (Coming soon!)
 
 ### Sync Schema
 
-We allow you to sync schema changes if you have made changes outside NocoDB GUI. However, it has to be noted then you will have to bring your own schema migrations for moving from environment to others. See <a href="/data-sources/sync-with-data-source" target="_blank">Sync Schema</a> for details.
+We allow you to sync schema changes if you have made changes outside AutoCRUD GUI. However, it has to be noted then you will have to bring your own schema migrations for moving from environment to others. See <a href="/data-sources/sync-with-data-source" target="_blank">Sync Schema</a> for details.
 
 ### Audit
 
@@ -55,20 +55,20 @@ Most internet businesses equip themselves with either spreadsheet or a database 
 
 Our mission is to provide the most powerful no-code interface for databases which is Open Source to every single internet business in the world. This would not only democratise access to a powerful computing tool but also bring forth a billion+ people who will have radical tinkering-and-building abilities on internet.
 
-## How can I contribute to NocoDB's development ?
+## How can I contribute to AutoCRUD's development ?
 
-Please refer to [here](https://github.com/nocodb/nocodb/blob/develop/.github/CONTRIBUTING.md) for the contribution guidelines.
+Please refer to [here](https://github.com/AutoCRUD/AutoCRUD/blob/develop/.github/CONTRIBUTING.md) for the contribution guidelines.
 
 <img src="https://static.scarf.sh/a.png?x-pxid=c12a77cc-855e-4602-8a0f-614b2d0da56a" style={{margin: '0px'}} />
 
-## Where can I join the NocoDB community?
+## Where can I join the AutoCRUD community?
 
 Follow us for daily updates, content, and other activities with our community:
 
-- [Youtube](https://www.youtube.com/@nocodb)
-- [Twitter](https://twitter.com/nocodb)
-- [Discord](http://discord.nocodb.com/)
-- [GitHub](https://github.com/nocodb/nocodb)
-- [Community Forums](https://community.nocodb.com/)
-- [LinkedIn](https://www.linkedin.com/company/nocodb)
-- [Reddit](https://www.reddit.com/r/NocoDB/)
+- [Youtube](https://www.youtube.com/@AutoCRUD)
+- [Twitter](https://twitter.com/AutoCRUD)
+- [Discord](http://discord.AutoCRUD.com/)
+- [GitHub](https://github.com/AutoCRUD/AutoCRUD)
+- [Community Forums](https://community.AutoCRUD.com/)
+- [LinkedIn](https://www.linkedin.com/company/AutoCRUD)
+- [Reddit](https://www.reddit.com/r/AutoCRUD/)

@@ -8,7 +8,8 @@ params:
   description: Documentation and guides for AutoCRUD
   navbar:
     logo:
-      path: /images/logo.svg
+      path: /images/WordpressTransparent.png
+      alt: AutoCRUD Logo
 
   sidebar:
     enabled: true
