@@ -4,7 +4,7 @@ description: AutoCRUD Documentation
 weight: 1
 ---
 
-![](/images/WordpressTransparent.png)
+<img src="/images/WordpressTransparent.png" style="width:100px" />
 
 ## AutoCrud
 
