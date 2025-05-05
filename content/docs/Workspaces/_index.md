@@ -1,36 +1,42 @@
 ---
-title: "Workspaces"
-description: "Learn about AutoCRUD workspaces"
-weight: 3
+title: Workspaces
+description: Learn how to create and manage workspaces in AutoCRUD
+weight: 2
 ---
 
-Workspaces in AutoCRUD help you organize your projects and manage access control. Each workspace can contain multiple tables, flows, and configurations.
+# Workspaces
 
-## What is a Workspace?
+Workspaces are the foundation of your AutoCRUD experience. They provide collaborative environments where you can organize your tables, flows, and resources.
 
-A workspace is a container that helps you:
+## What You'll Learn
 
-- Organize related tables and data
-- Create flows wit your desired integrations
-- Manage team access and permissions
-- Configure environment-specific settings
-- Track usage and activity
+- How to create and set up new workspaces
+- Ways to organize your data and workflows
+- How to manage workspace settings and permissions
+- Best practices for workspace organization
+- Collaboration features for team environments
 
-## Creating a Workspace
+## Key Features
 
-To create a new workspace:
+- **Centralized Dashboard**: Access all your tables, flows, and resources in one place
+- **Collaborative Environment**: Work together with team members in real-time
+- **Customizable Settings**: Configure workspace according to your needs
+- **Resource Management**: Organize all your data and automation assets
+- **Access Controls**: Set permissions and control who can view or edit
 
-1. Click on the " Create Workspaces" button on starter page
-2. Select "New Workspace"
-3. Enter a name and description
-4. Configure workspace settings
-5. Click "Create"
+## Workspace Structure
 
-## Managing Workspaces
+Each workspace contains the following components:
 
-Learn how to:
+- **Tables**: Your database collections with spreadsheet-like interface
+- **Flows**: Automated workflows connecting your tools and services
+- **Variables**: Global variables available across your workspace
+- **Resources**: External resources connected to your workspace
+- **Settings**: Configuration options for your workspace
 
-- [Set up your first workspace](/docs/workspaces/setup)
-- [Configure workspace settings](/docs/workspaces/settings)
-- [Manage team access](/docs/workspaces/teams)
-- [Share workspaces](/docs/workspaces/sharing)
+<!-- WORKSPACE DASHBOARD SCREENSHOT -->
+<!-- ![Workspace Dashboard](/images/workspace-dashboard.png) -->
+
+## Getting Started
+
+Ready to create your first workspace? Start with our [Creating a Workspace]({{< ref "create.md" >}}) guide.

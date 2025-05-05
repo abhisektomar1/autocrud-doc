@@ -19,9 +19,9 @@ Get started with AutoCRUD by understanding its core concepts and components.
 
 ## Quick Navigation
 
-- [Setting up your first workspace →](/docs/workspaces/setup)
-- [Creating database tables →](/docs/tables/create)
-- [Building automation flows →](/docs/flows/create)
+- [Setting up your first workspace →](/docs/workspaces/overview/)
+- [Creating database tables →](/docs/tables/overview/)
+- [Building automation flows →](/docs/flows)
 - [Managing global variables →](/docs/global-variables/manage)
 
 ## Next Steps

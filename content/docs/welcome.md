@@ -1,78 +1,48 @@
 ---
-title: Welcome
+title: Welcome to Autocrud
 description: AutoCRUD Documentation
 weight: 1
 ---
 
-<img src="/images/WordpressTransparent.png" style="width:100px" />
+<!-- <img src="/images/WordpressTransparent.png" style="width:50px" />
 
-## AutoCrud
+# Welcome to AutoCRUD -->
 
-AutoCRUD is a no-code database platform that allows teams to collaborate and build applications with ease of a familiar and intuitive spreadsheet interface. This allows even non-developers or business users to become software creators.
+AutoCRUD combines powerful workflow automation with intuitive database management to help teams build, connect, and automate their business processes without coding.
 
-AutoCRUD works by connecting to any relational database and transforming them into a smart spreadsheet interface! This allows you to build no-code applications collaboratively with teams. AutoCRUD currently works with MySQL, PostgreSQL & SQLite (only in Open Source) databases.
+<!-- HOMEPAGE SCREENSHOT -->
+<!-- ![AutoCRUD Homepage](/images/homepage.png) -->
 
-Also, AutoCRUD's app store allows you to build business workflows on views with combination of Slack, Microsoft Teams, Discord, Twilio, Whatsapp, Email & any 3rd party APIs too. Plus AutoCRUD provides programmatic access to APIs so that you can build integrations with Zapier / Integromat and custom applications too.
+## Key Features
 
-## Features
+- **Workflow Automation**: Create powerful workflows with our visual flow builder
+- **Database Management**: Manage your data with a familiar spreadsheet interface
+- **Multiple Views**: Grid, Kanban, and Form views for versatile data visualization
+- **AI Integration**: Leverage AI capabilities for content generation and analysis
+- **Extensive Integrations**: Connect with Slack, Discord, email services, and more
 
-### Rich Spreadsheet Interface
+## Quick Navigation
 
-- ⚡ &nbsp;Basic Operations: Create, Read, Update and Delete on Tables, Fields, and Records
-- ⚡ &nbsp;Fields Operations: Sort, Filter, Hide / Un-hide Fields
-- ⚡ &nbsp;Multiple Views Types: Grid (By default), Gallery, Form View and Kanban View
-- ⚡ &nbsp;View Permissions Types: Collaborative Views & Locked Views
-- ⚡ &nbsp;Share Bases / Views: either Public or Private (with Password Protected)
-- ⚡ &nbsp;Variant Cell Types: ID, Links, Lookup, Rollup, SingleLineText, Attachment, Currency, Formula and etc
-- ⚡ &nbsp;Access Control with Roles : Fine-grained Access Control at different levels
-- ⚡ &nbsp;and more ...
+| Feature                            | Description                                               |
+| ---------------------------------- | --------------------------------------------------------- |
+| [Workspaces](/docs/workspaces)     | Create and manage collaborative environments              |
+| [Tables](/docs/tables)             | Build and manage your database with spreadsheet interface |
+| [Flows](/docs/flows)               | Create automated workflows with our visual builder        |
+| [Variables](/docs/variables)       | Store and manage global variables across projects         |
+| [Integrations](/docs/integrations) | Connect with external services and tools                  |
 
-### App Store for Workflow Automations
+## Get Started
 
-We provide different integrations in three main categories. See <a href="/account-settings/oss-specific-details#app-store" target="_blank">App Store</a> for details.
+Ready to begin? Check out our [Getting Started Guide](/docs/getting-started) or jump directly to learning about [Tables](/docs/tables) or [Flows](/docs/flows).
 
-- ⚡ &nbsp;Chat : Slack, Discord, Mattermost, and etc
-- ⚡ &nbsp;Email : AWS SES, SMTP, MailerSend, and etc
-- ⚡ &nbsp;Storage : AWS S3, Google Cloud Storage, Minio, and etc
+## Community & Support
 
-### Programmatic Access
+Join our community:
 
-We provide the following ways to let users invoke actions in a programmatic way. You can use a token (either JWT or Social Auth) to sign your requests for authorization to AutoCRUD.
-
-- ⚡ &nbsp;REST APIs
-- ⚡ &nbsp;AutoCRUD SDK
-- ⚡ &nbsp;SQL Access : Run SQL queries on your data source from AutoCRUD UI itself (Coming soon!)
-
-### Sync Schema
-
-We allow you to sync schema changes if you have made changes outside AutoCRUD GUI. However, it has to be noted then you will have to bring your own schema migrations for moving from environment to others. See <a href="/data-sources/sync-with-data-source" target="_blank">Sync Schema</a> for details.
-
-### Audit
-
-We are keeping all the user operation logs under one place. See <a href="/data-sources/actions-on-data-sources#audit-logs" target="_blank">Audit</a> for details.
-
-## Why are we building this?
-
-Most internet businesses equip themselves with either spreadsheet or a database to solve their business needs. Spreadsheets are used by a Billion+ humans collaboratively every single day. However, we are way off working at similar speeds on databases which are way more powerful tools when it comes to computing. Attempts to solve this with SaaS offerings has meant horrible access controls, vendor lockin, data lockin, abrupt price changes & most importantly a glass ceiling on what's possible in the future.
-
-## Our Mission
-
-Our mission is to provide the most powerful no-code interface for databases which is Open Source to every single internet business in the world. This would not only democratise access to a powerful computing tool but also bring forth a billion+ people who will have radical tinkering-and-building abilities on internet.
-
-## How can I contribute to AutoCRUD's development ?
-
-Please refer to [here](https://github.com/AutoCRUD/AutoCRUD/blob/develop/.github/CONTRIBUTING.md) for the contribution guidelines.
-
-<img src="https://static.scarf.sh/a.png?x-pxid=c12a77cc-855e-4602-8a0f-614b2d0da56a" style={{margin: '0px'}} />
-
-## Where can I join the AutoCRUD community?
-
-Follow us for daily updates, content, and other activities with our community:
-
-- [Youtube](https://www.youtube.com/@AutoCRUD)
-- [Twitter](https://twitter.com/AutoCRUD)
 - [Discord](http://discord.AutoCRUD.com/)
 - [GitHub](https://github.com/AutoCRUD/AutoCRUD)
 - [Community Forums](https://community.AutoCRUD.com/)
-- [LinkedIn](https://www.linkedin.com/company/AutoCRUD)
-- [Reddit](https://www.reddit.com/r/AutoCRUD/)
+
+<!-- Tracking pixel -->
+
+<img src="https://static.scarf.sh/a.png?x-pxid=c12a77cc-855e-4602-8a0f-614b2d0da56a" style={{margin: '0px'}} />
