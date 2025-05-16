@@ -6,8 +6,10 @@ params:
   description: Documentation and guides for AutoCRUD
   navbar:
     logo:
-      path: images/WordpressTransparent.png
+      path: /images/WordpressTransparent.png
       alt: AutoCRUD Logo
+      height: "32"
+      width: "auto"
 
   sidebar:
     enabled: true
