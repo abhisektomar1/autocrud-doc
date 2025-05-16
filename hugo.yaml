@@ -5,11 +5,13 @@ title: AutoCRUD
 params:
   description: Documentation and guides for AutoCRUD
   navbar:
+    displayTitle: true
+    displayLogo: true
     logo:
-      path: images/WordpressTransparent.png
+      path: /images/WordpressTransparent.png
       alt: AutoCRUD Logo
-      height: "8"
-      width: "auto"
+      height: "40"
+      width: "150"
 
   sidebar:
     enabled: true
