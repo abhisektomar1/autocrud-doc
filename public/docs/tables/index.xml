@@ -24,18 +24,18 @@
         
         
         &lt;h1&gt;Creating and Managing Tables&lt;/h1&gt;&lt;p&gt;Tables are the fundamental building blocks for storing and organizing your data in AutoCRUD. This guide walks you through creating, configuring, and managing tables effectively.&lt;/p&gt;
-&lt;h2&gt;What is a Table?&lt;span class=&#34;absolute -mt-20&#34; id=&#34;what-is-a-table&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;What is a Table?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-is-a-table&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#what-is-a-table&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;In AutoCRUD, a table is a collection of data organized in rows (records) and columns (fields). Tables provide a familiar spreadsheet-like interface while offering the power and flexibility of a database.&lt;/p&gt;
 &lt;!-- TABLE INTERFACE SCREENSHOT --&gt;
 &lt;!-- ![Table Interface](/images/table-interface.png) --&gt;
-&lt;h2&gt;Creating Your First Table&lt;span class=&#34;absolute -mt-20&#34; id=&#34;creating-your-first-table&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#creating-your-first-table&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Step 1: Access the Tables Section&lt;span class=&#34;absolute -mt-20&#34; id=&#34;step-1-access-the-tables-section&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Creating Your First Table&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;creating-your-first-table&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#creating-your-first-table&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Step 1: Access the Tables Section&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;step-1-access-the-tables-section&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#step-1-access-the-tables-section&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;Navigate to your workspace&lt;/li&gt;
 &lt;li&gt;Click on the &lt;strong&gt;Tables&lt;/strong&gt; icon in the left sidebar&lt;/li&gt;
 &lt;li&gt;Click the &lt;strong&gt;+ New Table&lt;/strong&gt; button in the top-right corner&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Step 2: Define Basic Table Information&lt;span class=&#34;absolute -mt-20&#34; id=&#34;step-2-define-basic-table-information&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Step 2: Define Basic Table Information&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;step-2-define-basic-table-information&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#step-2-define-basic-table-information&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;In the table creation dialog:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Enter a &lt;strong&gt;Table Name&lt;/strong&gt; (use a clear, descriptive name)&lt;/li&gt;
@@ -45,7 +45,7 @@
 &lt;/ol&gt;
 &lt;!-- CREATE TABLE SCREENSHOT --&gt;
 &lt;!-- ![Create Table Dialog](/images/create-table-dialog.png) --&gt;
-&lt;h3&gt;Step 3: Define Fields (Columns)&lt;span class=&#34;absolute -mt-20&#34; id=&#34;step-3-define-fields-columns&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Step 3: Define Fields (Columns)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;step-3-define-fields-columns&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#step-3-define-fields-columns&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;After creating your table, you&amp;rsquo;ll be prompted to add fields:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Click &lt;strong&gt;+ Add Field&lt;/strong&gt; to add your first field&lt;/li&gt;
@@ -55,7 +55,7 @@
 &lt;li&gt;Click &lt;strong&gt;Save&lt;/strong&gt; to add the field&lt;/li&gt;
 &lt;li&gt;Repeat for additional fields&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4&gt;Available Field Types&lt;span class=&#34;absolute -mt-20&#34; id=&#34;available-field-types&#34;&gt;&lt;/span&gt;
+&lt;h4&gt;Available Field Types&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;available-field-types&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#available-field-types&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;AutoCRUD offers a wide range of field types to match your data needs:&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -145,7 +145,7 @@
 &lt;/table&gt;
 &lt;!-- FIELD TYPES SCREENSHOT --&gt;
 &lt;!-- ![Field Types](/images/field-types.png) --&gt;
-&lt;h3&gt;Step 4: Add Records (Rows)&lt;span class=&#34;absolute -mt-20&#34; id=&#34;step-4-add-records-rows&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Step 4: Add Records (Rows)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;step-4-add-records-rows&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#step-4-add-records-rows&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Once your fields are set up, you can add data to your table:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Click the &lt;strong&gt;+ Add Record&lt;/strong&gt; button at the bottom of the table&lt;/li&gt;
@@ -153,15 +153,15 @@
 &lt;li&gt;Press Enter or click outside the record to save&lt;/li&gt;
 &lt;li&gt;Continue adding records as needed&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;Managing Existing Tables&lt;span class=&#34;absolute -mt-20&#34; id=&#34;managing-existing-tables&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#managing-existing-tables&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Renaming a Table&lt;span class=&#34;absolute -mt-20&#34; id=&#34;renaming-a-table&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Managing Existing Tables&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;managing-existing-tables&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#managing-existing-tables&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Renaming a Table&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;renaming-a-table&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#renaming-a-table&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;Open the table you want to rename&lt;/li&gt;
 &lt;li&gt;Click on the table name at the top of the page&lt;/li&gt;
 &lt;li&gt;Enter the new name&lt;/li&gt;
 &lt;li&gt;Press Enter to save&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Adding or Modifying Fields&lt;span class=&#34;absolute -mt-20&#34; id=&#34;adding-or-modifying-fields&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Adding or Modifying Fields&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;adding-or-modifying-fields&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#adding-or-modifying-fields&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;To add new fields to an existing table:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Open the table&lt;/li&gt;
@@ -175,7 +175,7 @@
 &lt;li&gt;Make your changes&lt;/li&gt;
 &lt;li&gt;Click &lt;strong&gt;Save&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Deleting a Table&lt;span class=&#34;absolute -mt-20&#34; id=&#34;deleting-a-table&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Deleting a Table&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;deleting-a-table&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#deleting-a-table&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;When you no longer need a table:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Go to the Tables list in your workspace&lt;/li&gt;
@@ -185,8 +185,9 @@
 &lt;li&gt;Confirm the deletion&lt;/li&gt;
 &lt;/ol&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Warning&lt;/strong&gt;: Deleting a table permanently removes all its data. This action cannot be undone. Consider creating a backup before deletion.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h2&gt;Table Templates&lt;span class=&#34;absolute -mt-20&#34; id=&#34;table-templates&#34;&gt;&lt;/span&gt;
+  &lt;p&gt;&lt;strong&gt;Warning&lt;/strong&gt;: Deleting a table permanently removes all its data. This action cannot be undone. Consider creating a backup before deletion.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Table Templates&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;table-templates&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#table-templates&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;AutoCRUD offers templates for common use cases to help you get started quickly:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;When creating a new table, click &lt;strong&gt;Start from Template&lt;/strong&gt;&lt;/li&gt;
@@ -205,7 +206,7 @@
 &lt;/ul&gt;
 &lt;!-- TABLE TEMPLATES SCREENSHOT --&gt;
 &lt;!-- ![Table Templates](/images/table-templates.png) --&gt;
-&lt;h2&gt;Importing Data&lt;span class=&#34;absolute -mt-20&#34; id=&#34;importing-data&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Importing Data&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;importing-data&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#importing-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;To import existing data into a new or existing table:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Open the table or create a new one&lt;/li&gt;
@@ -223,29 +224,29 @@
 &lt;li&gt;Review and confirm the import&lt;/li&gt;
 &lt;li&gt;Click &lt;strong&gt;Import Data&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;Best Practices&lt;span class=&#34;absolute -mt-20&#34; id=&#34;best-practices&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#best-practices&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Naming Conventions&lt;span class=&#34;absolute -mt-20&#34; id=&#34;naming-conventions&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Best Practices&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;best-practices&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#best-practices&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Naming Conventions&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;naming-conventions&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#naming-conventions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Use clear, descriptive names for tables and fields&lt;/li&gt;
 &lt;li&gt;Be consistent with naming patterns&lt;/li&gt;
 &lt;li&gt;Consider including a prefix for related tables&lt;/li&gt;
 &lt;li&gt;Avoid special characters in names&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Field Organization&lt;span class=&#34;absolute -mt-20&#34; id=&#34;field-organization&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Field Organization&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;field-organization&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#field-organization&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Group related fields together&lt;/li&gt;
 &lt;li&gt;Order fields logically (e.g., basic info first, details later)&lt;/li&gt;
 &lt;li&gt;Use field descriptions to provide context&lt;/li&gt;
 &lt;li&gt;Consider what fields should be required vs. optional&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Data Integrity&lt;span class=&#34;absolute -mt-20&#34; id=&#34;data-integrity&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Data Integrity&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;data-integrity&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#data-integrity&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Use appropriate field types for your data&lt;/li&gt;
 &lt;li&gt;Set up validations to ensure data quality&lt;/li&gt;
 &lt;li&gt;Use select fields for consistent categorical data&lt;/li&gt;
 &lt;li&gt;Consider relationships between tables&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Next Steps&lt;span class=&#34;absolute -mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Next Steps&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#next-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Now that you&amp;rsquo;ve created your table, learn about:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://localhost:1313/autocrud-doc/docs/tables/fields/&#34; &gt;Working with Fields&lt;/a&gt;&lt;/li&gt;
@@ -267,20 +268,20 @@
         
         
         &lt;p&gt;Learn how to work with different field types and manage columns in your tables.&lt;/p&gt;
-&lt;h2&gt;Available Field Types&lt;span class=&#34;absolute -mt-20&#34; id=&#34;available-field-types&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#available-field-types&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Text Fields&lt;span class=&#34;absolute -mt-20&#34; id=&#34;text-fields&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Available Field Types&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;available-field-types&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#available-field-types&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Text Fields&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;text-fields&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#text-fields&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Single Line Text&lt;/strong&gt;: For short text entries&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Long Text&lt;/strong&gt;: For longer text content, descriptions&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Rich Text&lt;/strong&gt;: Formatted text with styling options&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Numeric Fields&lt;span class=&#34;absolute -mt-20&#34; id=&#34;numeric-fields&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Numeric Fields&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;numeric-fields&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#numeric-fields&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Number&lt;/strong&gt;: Integer values&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Decimal&lt;/strong&gt;: For decimal numbers&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Currency&lt;/strong&gt;: Monetary values with currency symbol&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Special Fields&lt;span class=&#34;absolute -mt-20&#34; id=&#34;special-fields&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Special Fields&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;special-fields&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#special-fields&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Attachment&lt;/strong&gt;: Upload and manage files&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Date and time values&lt;/li&gt;
@@ -290,8 +291,8 @@
 &lt;li&gt;&lt;strong&gt;URL&lt;/strong&gt;: Web links&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Email&lt;/strong&gt;: Email addresses&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Field Operations&lt;span class=&#34;absolute -mt-20&#34; id=&#34;field-operations&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#field-operations&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Adding Fields&lt;span class=&#34;absolute -mt-20&#34; id=&#34;adding-fields&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Field Operations&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;field-operations&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#field-operations&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Adding Fields&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;adding-fields&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#adding-fields&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;Click the &amp;ldquo;+&amp;rdquo; button in the field header&lt;/li&gt;
 &lt;li&gt;Choose field type from the dropdown&lt;/li&gt;
@@ -304,7 +305,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Field Configuration&lt;span class=&#34;absolute -mt-20&#34; id=&#34;field-configuration&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Field Configuration&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;field-configuration&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#field-configuration&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Set field as required&lt;/li&gt;
 &lt;li&gt;Add field description&lt;/li&gt;
@@ -312,7 +313,7 @@
 &lt;li&gt;Set default values&lt;/li&gt;
 &lt;li&gt;Add validation rules&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Column Management&lt;span class=&#34;absolute -mt-20&#34; id=&#34;column-management&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Column Management&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;column-management&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#column-management&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Resize columns by dragging edges&lt;/li&gt;
 &lt;li&gt;Reorder columns via drag and drop&lt;/li&gt;
@@ -321,8 +322,8 @@
 &lt;li&gt;Sort by column&lt;/li&gt;
 &lt;li&gt;Filter by column values&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Field Properties&lt;span class=&#34;absolute -mt-20&#34; id=&#34;field-properties&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#field-properties&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Common Properties&lt;span class=&#34;absolute -mt-20&#34; id=&#34;common-properties&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Field Properties&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;field-properties&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#field-properties&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Common Properties&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;common-properties&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#common-properties&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Field name&lt;/li&gt;
 &lt;li&gt;Field type&lt;/li&gt;
@@ -331,7 +332,7 @@
 &lt;li&gt;Unique values&lt;/li&gt;
 &lt;li&gt;Default value&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Advanced Properties&lt;span class=&#34;absolute -mt-20&#34; id=&#34;advanced-properties&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Advanced Properties&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;advanced-properties&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#advanced-properties&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Custom validation&lt;/li&gt;
 &lt;li&gt;Reference fields&lt;/li&gt;
@@ -339,7 +340,7 @@
 &lt;li&gt;Formula fields&lt;/li&gt;
 &lt;li&gt;Rollup fields&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Best Practices&lt;span class=&#34;absolute -mt-20&#34; id=&#34;best-practices&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Best Practices&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;best-practices&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#best-practices&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;Choose appropriate field types&lt;/li&gt;
 &lt;li&gt;Use clear field names&lt;/li&gt;
@@ -348,7 +349,7 @@
 &lt;li&gt;Configure default values when needed&lt;/li&gt;
 &lt;li&gt;Organize fields logically&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;Tips and Tricks&lt;span class=&#34;absolute -mt-20&#34; id=&#34;tips-and-tricks&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Tips and Tricks&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;tips-and-tricks&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#tips-and-tricks&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;Use reference fields to link tables&lt;/li&gt;
 &lt;li&gt;Leverage formula fields for calculations&lt;/li&gt;
@@ -370,7 +371,7 @@
         
         
         &lt;h1&gt;Table Views in AutoCRUD&lt;/h1&gt;&lt;p&gt;Views provide different ways to visualize and interact with your table data. AutoCRUD offers multiple view types to help you organize, analyze, and work with your information effectively.&lt;/p&gt;
-&lt;h2&gt;Understanding Views&lt;span class=&#34;absolute -mt-20&#34; id=&#34;understanding-views&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Understanding Views&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;understanding-views&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#understanding-views&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Views in AutoCRUD allow you to:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Present the same data in different formats&lt;/li&gt;
@@ -381,8 +382,8 @@
 &lt;/ul&gt;
 &lt;!-- VIEWS OVERVIEW SCREENSHOT --&gt;
 &lt;!-- ![Views Overview](/images/views-overview.png) --&gt;
-&lt;h2&gt;Available View Types&lt;span class=&#34;absolute -mt-20&#34; id=&#34;available-view-types&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#available-view-types&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Grid View&lt;span class=&#34;absolute -mt-20&#34; id=&#34;grid-view&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Available View Types&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;available-view-types&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#available-view-types&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Grid View&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;grid-view&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#grid-view&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The most common view type, resembling a spreadsheet:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Rows represent records&lt;/li&gt;
@@ -394,7 +395,7 @@
 &lt;p&gt;&lt;strong&gt;Best for&lt;/strong&gt;: General data management, data entry, comprehensive overviews&lt;/p&gt;
 &lt;!-- GRID VIEW SCREENSHOT --&gt;
 &lt;!-- ![Grid View](/images/grid-view.png) --&gt;
-&lt;h3&gt;Kanban View&lt;span class=&#34;absolute -mt-20&#34; id=&#34;kanban-view&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Kanban View&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;kanban-view&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#kanban-view&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;A board-style view that organizes records into columns based on a single select or status field:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Visual organization of records&lt;/li&gt;
@@ -406,7 +407,7 @@
 &lt;p&gt;&lt;strong&gt;Best for&lt;/strong&gt;: Project management, status tracking, workflow visualization&lt;/p&gt;
 &lt;!-- KANBAN VIEW SCREENSHOT --&gt;
 &lt;!-- ![Kanban View](/images/kanban-view.png) --&gt;
-&lt;h3&gt;Form View&lt;span class=&#34;absolute -mt-20&#34; id=&#34;form-view&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Form View&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;form-view&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#form-view&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;A data entry-focused view that presents one record at a time in a form layout:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Clean interface for data entry&lt;/li&gt;
@@ -418,7 +419,7 @@
 &lt;p&gt;&lt;strong&gt;Best for&lt;/strong&gt;: Data collection, surveys, structured data entry&lt;/p&gt;
 &lt;!-- FORM VIEW SCREENSHOT --&gt;
 &lt;!-- ![Form View](/images/form-view.png) --&gt;
-&lt;h3&gt;Calendar View&lt;span class=&#34;absolute -mt-20&#34; id=&#34;calendar-view&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Calendar View&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;calendar-view&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#calendar-view&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Displays records with date fields in a calendar format:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Day, week, month views&lt;/li&gt;
@@ -428,7 +429,7 @@
 &lt;li&gt;Event-style interactions&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Best for&lt;/strong&gt;: Scheduling, event planning, timeline visualization&lt;/p&gt;
-&lt;h3&gt;Gallery View&lt;span class=&#34;absolute -mt-20&#34; id=&#34;gallery-view&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Gallery View&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;gallery-view&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#gallery-view&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Presents records as cards in a grid layout with emphasis on visual elements:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Image-focused presentation&lt;/li&gt;
@@ -438,8 +439,8 @@
 &lt;li&gt;Visual filtering options&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Best for&lt;/strong&gt;: Media collections, product catalogs, visual data&lt;/p&gt;
-&lt;h2&gt;Creating and Managing Views&lt;span class=&#34;absolute -mt-20&#34; id=&#34;creating-and-managing-views&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#creating-and-managing-views&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Creating a New View&lt;span class=&#34;absolute -mt-20&#34; id=&#34;creating-a-new-view&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Creating and Managing Views&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;creating-and-managing-views&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#creating-and-managing-views&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Creating a New View&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;creating-a-new-view&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#creating-a-new-view&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;Open your table&lt;/li&gt;
 &lt;li&gt;Click the &amp;ldquo;+&amp;rdquo; icon next to the view tabs&lt;/li&gt;
@@ -450,9 +451,9 @@
 &lt;/ol&gt;
 &lt;!-- CREATE VIEW SCREENSHOT --&gt;
 &lt;!-- ![Create View](/images/create-view.png) --&gt;
-&lt;h3&gt;Customizing View Settings&lt;span class=&#34;absolute -mt-20&#34; id=&#34;customizing-view-settings&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Customizing View Settings&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;customizing-view-settings&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#customizing-view-settings&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Each view type has specific settings you can configure:&lt;/p&gt;
-&lt;h4&gt;Grid View Settings&lt;span class=&#34;absolute -mt-20&#34; id=&#34;grid-view-settings&#34;&gt;&lt;/span&gt;
+&lt;h4&gt;Grid View Settings&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;grid-view-settings&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#grid-view-settings&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;Column width and order&lt;/li&gt;
 &lt;li&gt;Frozen columns&lt;/li&gt;
@@ -460,7 +461,7 @@
 &lt;li&gt;Cell wrapping&lt;/li&gt;
 &lt;li&gt;Conditional formatting&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;Kanban View Settings&lt;span class=&#34;absolute -mt-20&#34; id=&#34;kanban-view-settings&#34;&gt;&lt;/span&gt;
+&lt;h4&gt;Kanban View Settings&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;kanban-view-settings&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#kanban-view-settings&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;Grouping field selection&lt;/li&gt;
 &lt;li&gt;Card content customization&lt;/li&gt;
@@ -468,7 +469,7 @@
 &lt;li&gt;Card size and layout&lt;/li&gt;
 &lt;li&gt;Collapsed/expanded states&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;Form View Settings&lt;span class=&#34;absolute -mt-20&#34; id=&#34;form-view-settings&#34;&gt;&lt;/span&gt;
+&lt;h4&gt;Form View Settings&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;form-view-settings&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#form-view-settings&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;Field order and grouping&lt;/li&gt;
 &lt;li&gt;Field size and layout&lt;/li&gt;
@@ -476,8 +477,8 @@
 &lt;li&gt;Required fields&lt;/li&gt;
 &lt;li&gt;Help text&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;View-Specific Features&lt;span class=&#34;absolute -mt-20&#34; id=&#34;view-specific-features&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#view-specific-features&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;Grid View Features&lt;span class=&#34;absolute -mt-20&#34; id=&#34;grid-view-features&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;View-Specific Features&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;view-specific-features&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#view-specific-features&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;Grid View Features&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;grid-view-features&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#grid-view-features&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Column Configuration:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Click on the column header&lt;/li&gt;
@@ -491,7 +492,7 @@
 &lt;li&gt;Use context menu (right-click) for additional options&lt;/li&gt;
 &lt;li&gt;Select multiple rows for bulk actions&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4&gt;Kanban View Features&lt;span class=&#34;absolute -mt-20&#34; id=&#34;kanban-view-features&#34;&gt;&lt;/span&gt;
+&lt;h4&gt;Kanban View Features&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;kanban-view-features&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#kanban-view-features&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Column Management:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Add new columns through the &amp;ldquo;+&amp;rdquo; button&lt;/li&gt;
@@ -506,7 +507,7 @@
 &lt;li&gt;Configure card size and layout&lt;/li&gt;
 &lt;li&gt;Set up custom card coloring rules&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4&gt;Form View Features&lt;span class=&#34;absolute -mt-20&#34; id=&#34;form-view-features&#34;&gt;&lt;/span&gt;
+&lt;h4&gt;Form View Features&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;form-view-features&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#form-view-features&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Layout Customization:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Enter design mode through the &amp;ldquo;Customize form&amp;rdquo; option&lt;/li&gt;
@@ -515,8 +516,8 @@
 &lt;li&gt;Add section headers and descriptions&lt;/li&gt;
 &lt;li&gt;Configure field properties&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;Sharing and Collaborating with Views&lt;span class=&#34;absolute -mt-20&#34; id=&#34;sharing-and-collaborating-with-views&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#sharing-and-collaborating-with-views&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Sharing Specific Views&lt;span class=&#34;absolute -mt-20&#34; id=&#34;sharing-specific-views&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Sharing and Collaborating with Views&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;sharing-and-collaborating-with-views&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#sharing-and-collaborating-with-views&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Sharing Specific Views&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;sharing-specific-views&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#sharing-specific-views&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Share particular views with team members:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Open the view you want to share&lt;/li&gt;
@@ -531,7 +532,7 @@
 &lt;li&gt;Set permission levels (view only, edit, etc.)&lt;/li&gt;
 &lt;li&gt;Send the invitation or link&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;View Permissions&lt;span class=&#34;absolute -mt-20&#34; id=&#34;view-permissions&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;View Permissions&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;view-permissions&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#view-permissions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Control what others can do with your views:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;View Only&lt;/strong&gt;: Users can only see the data&lt;/li&gt;
@@ -539,7 +540,7 @@
 &lt;li&gt;&lt;strong&gt;Edit View&lt;/strong&gt;: Users can modify the view configuration&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Manage&lt;/strong&gt;: Users have full control over the view&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Collaborative View Usage&lt;span class=&#34;absolute -mt-20&#34; id=&#34;collaborative-view-usage&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Collaborative View Usage&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;collaborative-view-usage&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#collaborative-view-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Best practices for team collaboration:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Create specialized views for different team roles&lt;/li&gt;
@@ -548,8 +549,8 @@
 &lt;li&gt;Regularly review and update view configurations&lt;/li&gt;
 &lt;li&gt;Archive unused views to reduce clutter&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Advanced View Techniques&lt;span class=&#34;absolute -mt-20&#34; id=&#34;advanced-view-techniques&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#advanced-view-techniques&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Linked Record Views&lt;span class=&#34;absolute -mt-20&#34; id=&#34;linked-record-views&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Advanced View Techniques&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;advanced-view-techniques&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#advanced-view-techniques&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Linked Record Views&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;linked-record-views&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#linked-record-views&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;When working with linked records:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Click on a linked record&lt;/li&gt;
@@ -557,7 +558,7 @@
 &lt;li&gt;Create specific views for linked record tables&lt;/li&gt;
 &lt;li&gt;Use lookups to display related data in the primary view&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Conditional Views&lt;span class=&#34;absolute -mt-20&#34; id=&#34;conditional-views&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Conditional Views&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;conditional-views&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#conditional-views&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Create views with dynamic behavior:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Set up filters based on user or system values&lt;/li&gt;
@@ -565,7 +566,7 @@
 &lt;li&gt;Use formulas to drive view behavior&lt;/li&gt;
 &lt;li&gt;Set up conditional visibility for fields&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;View Switching Automation&lt;span class=&#34;absolute -mt-20&#34; id=&#34;view-switching-automation&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;View Switching Automation&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;view-switching-automation&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#view-switching-automation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Automate view changes based on context:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Create links that open specific views&lt;/li&gt;
@@ -573,7 +574,7 @@
 &lt;li&gt;Configure view redirects based on record state&lt;/li&gt;
 &lt;li&gt;Use URL parameters to control view selection&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;View Templates and Examples&lt;span class=&#34;absolute -mt-20&#34; id=&#34;view-templates-and-examples&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;View Templates and Examples&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;view-templates-and-examples&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#view-templates-and-examples&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;AutoCRUD offers several pre-built view templates:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Project Tracker&lt;/strong&gt;: Kanban view for task management&lt;/li&gt;
@@ -582,8 +583,8 @@
 &lt;li&gt;&lt;strong&gt;Product Catalog&lt;/strong&gt;: Gallery view for products&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Data Entry Form&lt;/strong&gt;: Form view for structured input&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Troubleshooting Views&lt;span class=&#34;absolute -mt-20&#34; id=&#34;troubleshooting-views&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#troubleshooting-views&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Common View Issues&lt;span class=&#34;absolute -mt-20&#34; id=&#34;common-view-issues&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Troubleshooting Views&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;troubleshooting-views&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#troubleshooting-views&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Common View Issues&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;common-view-issues&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#common-view-issues&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Issue&lt;/strong&gt;: View not displaying expected data
 &lt;strong&gt;Solution&lt;/strong&gt;: Check filters and sorting settings&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Issue&lt;/strong&gt;: View performance issues
@@ -592,7 +593,7 @@
 &lt;strong&gt;Solution&lt;/strong&gt;: Check field visibility settings in view configuration&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Issue&lt;/strong&gt;: Unable to modify view
 &lt;strong&gt;Solution&lt;/strong&gt;: Verify you have sufficient permissions for the view&lt;/p&gt;
-&lt;h2&gt;Next Steps&lt;span class=&#34;absolute -mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Next Steps&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#next-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Now that you understand views, learn about:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://localhost:1313/autocrud-doc/docs/tables/filters-sorting/&#34; &gt;Filtering and Sorting Data&lt;/a&gt;&lt;/li&gt;
@@ -614,8 +615,8 @@
         
         
         &lt;p&gt;Learn how to organize and find your data using AutoCRUD&amp;rsquo;s powerful filtering and sorting capabilities.&lt;/p&gt;
-&lt;h2&gt;Filtering&lt;span class=&#34;absolute -mt-20&#34; id=&#34;filtering&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#filtering&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Basic Filtering&lt;span class=&#34;absolute -mt-20&#34; id=&#34;basic-filtering&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Filtering&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;filtering&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#filtering&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Basic Filtering&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;basic-filtering&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#basic-filtering&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;Click the filter icon in the toolbar&lt;/li&gt;
 &lt;li&gt;Select field to filter&lt;/li&gt;
@@ -623,9 +624,9 @@
 &lt;li&gt;Enter filter value&lt;/li&gt;
 &lt;li&gt;Apply filter&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Filter Conditions&lt;span class=&#34;absolute -mt-20&#34; id=&#34;filter-conditions&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Filter Conditions&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;filter-conditions&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#filter-conditions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Available conditions depend on field type:&lt;/p&gt;
-&lt;h4&gt;Text Fields&lt;span class=&#34;absolute -mt-20&#34; id=&#34;text-fields&#34;&gt;&lt;/span&gt;
+&lt;h4&gt;Text Fields&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;text-fields&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#text-fields&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;Contains&lt;/li&gt;
 &lt;li&gt;Does not contain&lt;/li&gt;
@@ -636,7 +637,7 @@
 &lt;li&gt;Is empty&lt;/li&gt;
 &lt;li&gt;Is not empty&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;Number Fields&lt;span class=&#34;absolute -mt-20&#34; id=&#34;number-fields&#34;&gt;&lt;/span&gt;
+&lt;h4&gt;Number Fields&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;number-fields&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#number-fields&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;Equals&lt;/li&gt;
 &lt;li&gt;Does not equal&lt;/li&gt;
@@ -647,7 +648,7 @@
 &lt;li&gt;Is empty&lt;/li&gt;
 &lt;li&gt;Is not empty&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;Date Fields&lt;span class=&#34;absolute -mt-20&#34; id=&#34;date-fields&#34;&gt;&lt;/span&gt;
+&lt;h4&gt;Date Fields&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;date-fields&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#date-fields&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;Is&lt;/li&gt;
 &lt;li&gt;Is not&lt;/li&gt;
@@ -658,7 +659,7 @@
 &lt;li&gt;Is empty&lt;/li&gt;
 &lt;li&gt;Is not empty&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Advanced Filtering&lt;span class=&#34;absolute -mt-20&#34; id=&#34;advanced-filtering&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Advanced Filtering&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;advanced-filtering&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#advanced-filtering&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Combine multiple filters&lt;/li&gt;
 &lt;li&gt;Use AND/OR conditions&lt;/li&gt;
@@ -666,14 +667,14 @@
 &lt;li&gt;Save filter presets&lt;/li&gt;
 &lt;li&gt;Share filtered views&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Sorting&lt;span class=&#34;absolute -mt-20&#34; id=&#34;sorting&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#sorting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Basic Sorting&lt;span class=&#34;absolute -mt-20&#34; id=&#34;basic-sorting&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Sorting&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;sorting&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#sorting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Basic Sorting&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;basic-sorting&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#basic-sorting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;Click column header to sort&lt;/li&gt;
 &lt;li&gt;Click again to reverse order&lt;/li&gt;
 &lt;li&gt;Hold Shift to sort by multiple columns&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Sort Options&lt;span class=&#34;absolute -mt-20&#34; id=&#34;sort-options&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Sort Options&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;sort-options&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#sort-options&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Ascending order&lt;/li&gt;
 &lt;li&gt;Descending order&lt;/li&gt;
@@ -681,30 +682,30 @@
 &lt;li&gt;Clear sorting&lt;/li&gt;
 &lt;li&gt;Save sort preferences&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Multiple Column Sorting&lt;span class=&#34;absolute -mt-20&#34; id=&#34;multiple-column-sorting&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Multiple Column Sorting&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;multiple-column-sorting&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#multiple-column-sorting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;Sort by primary column&lt;/li&gt;
 &lt;li&gt;Hold Shift and click secondary column&lt;/li&gt;
 &lt;li&gt;Continue for additional columns&lt;/li&gt;
 &lt;li&gt;Adjust sort priority&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;Search&lt;span class=&#34;absolute -mt-20&#34; id=&#34;search&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#search&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Global Search&lt;span class=&#34;absolute -mt-20&#34; id=&#34;global-search&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Search&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;search&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#search&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Global Search&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;global-search&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#global-search&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Quick search across all fields&lt;/li&gt;
 &lt;li&gt;Real-time results&lt;/li&gt;
 &lt;li&gt;Highlight matches&lt;/li&gt;
 &lt;li&gt;Navigate results&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Column Search&lt;span class=&#34;absolute -mt-20&#34; id=&#34;column-search&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Column Search&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;column-search&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#column-search&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Search within specific columns&lt;/li&gt;
 &lt;li&gt;Use column filters&lt;/li&gt;
 &lt;li&gt;Combine with global search&lt;/li&gt;
 &lt;li&gt;Save search criteria&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Best Practices&lt;span class=&#34;absolute -mt-20&#34; id=&#34;best-practices&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#best-practices&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Filtering&lt;span class=&#34;absolute -mt-20&#34; id=&#34;filtering-1&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Best Practices&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;best-practices&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#best-practices&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Filtering&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;filtering-1&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#filtering-1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;Start with broad filters&lt;/li&gt;
 &lt;li&gt;Add specific conditions as needed&lt;/li&gt;
@@ -712,7 +713,7 @@
 &lt;li&gt;Save common filters&lt;/li&gt;
 &lt;li&gt;Document filter logic&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Sorting&lt;span class=&#34;absolute -mt-20&#34; id=&#34;sorting-1&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Sorting&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;sorting-1&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#sorting-1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;Choose meaningful sort fields&lt;/li&gt;
 &lt;li&gt;Consider data relationships&lt;/li&gt;
@@ -720,7 +721,7 @@
 &lt;li&gt;Save useful sort combinations&lt;/li&gt;
 &lt;li&gt;Clear sorts when done&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;Tips and Tricks&lt;span class=&#34;absolute -mt-20&#34; id=&#34;tips-and-tricks&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Tips and Tricks&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;tips-and-tricks&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#tips-and-tricks&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;Use filters for data analysis&lt;/li&gt;
 &lt;li&gt;Combine filters and sorts&lt;/li&gt;
@@ -742,8 +743,8 @@
         
         
         &lt;p&gt;Learn how to effectively collaborate with team members on tables in AutoCRUD.&lt;/p&gt;
-&lt;h2&gt;Comments and Discussions&lt;span class=&#34;absolute -mt-20&#34; id=&#34;comments-and-discussions&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#comments-and-discussions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Adding Comments&lt;span class=&#34;absolute -mt-20&#34; id=&#34;adding-comments&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Comments and Discussions&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;comments-and-discussions&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#comments-and-discussions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Adding Comments&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;adding-comments&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#adding-comments&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Click comment icon on records&lt;/li&gt;
 &lt;li&gt;Write and format comments&lt;/li&gt;
@@ -751,7 +752,7 @@
 &lt;li&gt;Add attachments&lt;/li&gt;
 &lt;li&gt;Thread discussions&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Comment Features&lt;span class=&#34;absolute -mt-20&#34; id=&#34;comment-features&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Comment Features&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;comment-features&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#comment-features&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Rich text formatting&lt;/li&gt;
 &lt;li&gt;File attachments&lt;/li&gt;
@@ -759,8 +760,8 @@
 &lt;li&gt;Reply threads&lt;/li&gt;
 &lt;li&gt;Email notifications&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Record Sharing&lt;span class=&#34;absolute -mt-20&#34; id=&#34;record-sharing&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#record-sharing&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Share Options&lt;span class=&#34;absolute -mt-20&#34; id=&#34;share-options&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Record Sharing&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;record-sharing&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#record-sharing&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Share Options&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;share-options&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#share-options&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Share individual records&lt;/li&gt;
 &lt;li&gt;Share filtered views&lt;/li&gt;
@@ -768,7 +769,7 @@
 &lt;li&gt;Generate share links&lt;/li&gt;
 &lt;li&gt;Track shared access&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Access Levels&lt;span class=&#34;absolute -mt-20&#34; id=&#34;access-levels&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Access Levels&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;access-levels&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#access-levels&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;View only&lt;/li&gt;
 &lt;li&gt;Comment&lt;/li&gt;
@@ -776,8 +777,8 @@
 &lt;li&gt;Manage&lt;/li&gt;
 &lt;li&gt;Admin&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Real-time Collaboration&lt;span class=&#34;absolute -mt-20&#34; id=&#34;real-time-collaboration&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#real-time-collaboration&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Live Updates&lt;span class=&#34;absolute -mt-20&#34; id=&#34;live-updates&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Real-time Collaboration&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;real-time-collaboration&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#real-time-collaboration&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Live Updates&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;live-updates&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#live-updates&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;See changes in real-time&lt;/li&gt;
 &lt;li&gt;Track who&amp;rsquo;s viewing&lt;/li&gt;
@@ -785,7 +786,7 @@
 &lt;li&gt;Resolve conflicts&lt;/li&gt;
 &lt;li&gt;Sync across devices&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Activity Tracking&lt;span class=&#34;absolute -mt-20&#34; id=&#34;activity-tracking&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Activity Tracking&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;activity-tracking&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#activity-tracking&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;View edit history&lt;/li&gt;
 &lt;li&gt;Track changes&lt;/li&gt;
@@ -793,8 +794,8 @@
 &lt;li&gt;Audit logs&lt;/li&gt;
 &lt;li&gt;Change notifications&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Team Features&lt;span class=&#34;absolute -mt-20&#34; id=&#34;team-features&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#team-features&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Team Management&lt;span class=&#34;absolute -mt-20&#34; id=&#34;team-management&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Team Features&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;team-features&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#team-features&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Team Management&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;team-management&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#team-management&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Assign records&lt;/li&gt;
 &lt;li&gt;Track assignments&lt;/li&gt;
@@ -802,7 +803,7 @@
 &lt;li&gt;Monitor progress&lt;/li&gt;
 &lt;li&gt;Team dashboards&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Notifications&lt;span class=&#34;absolute -mt-20&#34; id=&#34;notifications&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Notifications&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;notifications&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#notifications&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Comment notifications&lt;/li&gt;
 &lt;li&gt;Assignment alerts&lt;/li&gt;
@@ -810,8 +811,8 @@
 &lt;li&gt;Change notifications&lt;/li&gt;
 &lt;li&gt;Custom alerts&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Best Practices&lt;span class=&#34;absolute -mt-20&#34; id=&#34;best-practices&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#best-practices&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Effective Collaboration&lt;span class=&#34;absolute -mt-20&#34; id=&#34;effective-collaboration&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Best Practices&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;best-practices&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#best-practices&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Effective Collaboration&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;effective-collaboration&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#effective-collaboration&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;Use clear record assignments&lt;/li&gt;
 &lt;li&gt;Maintain organized discussions&lt;/li&gt;
@@ -819,7 +820,7 @@
 &lt;li&gt;Update status regularly&lt;/li&gt;
 &lt;li&gt;Document important decisions&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Communication Tips&lt;span class=&#34;absolute -mt-20&#34; id=&#34;communication-tips&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Communication Tips&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;communication-tips&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#communication-tips&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Use @mentions appropriately&lt;/li&gt;
 &lt;li&gt;Keep comments concise&lt;/li&gt;
@@ -827,8 +828,8 @@
 &lt;li&gt;Archive resolved items&lt;/li&gt;
 &lt;li&gt;Use appropriate channels&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Security and Privacy&lt;span class=&#34;absolute -mt-20&#34; id=&#34;security-and-privacy&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#security-and-privacy&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Access Control&lt;span class=&#34;absolute -mt-20&#34; id=&#34;access-control&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Security and Privacy&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;security-and-privacy&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#security-and-privacy&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Access Control&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;access-control&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#access-control&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Set view permissions&lt;/li&gt;
 &lt;li&gt;Control edit rights&lt;/li&gt;
@@ -836,7 +837,7 @@
 &lt;li&gt;Track access&lt;/li&gt;
 &lt;li&gt;Revoke permissions&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Data Protection&lt;span class=&#34;absolute -mt-20&#34; id=&#34;data-protection&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Data Protection&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;data-protection&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#data-protection&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Secure sharing&lt;/li&gt;
 &lt;li&gt;Audit trails&lt;/li&gt;
@@ -858,7 +859,7 @@
         
         
         &lt;h1&gt;Table Relationships&lt;/h1&gt;&lt;p&gt;One of the most powerful features of AutoCRUD is the ability to create relationships between tables. This allows you to connect related data and build complex data models similar to relational databases.&lt;/p&gt;
-&lt;h2&gt;Understanding Table Relationships&lt;span class=&#34;absolute -mt-20&#34; id=&#34;understanding-table-relationships&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Understanding Table Relationships&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;understanding-table-relationships&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#understanding-table-relationships&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Table relationships in AutoCRUD allow you to:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Connect records between different tables&lt;/li&gt;
@@ -869,19 +870,19 @@
 &lt;/ul&gt;
 &lt;!-- RELATIONSHIPS DIAGRAM --&gt;
 &lt;!-- ![Relationships Diagram](/images/relationships-diagram.png) --&gt;
-&lt;h2&gt;Types of Relationships&lt;span class=&#34;absolute -mt-20&#34; id=&#34;types-of-relationships&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Types of Relationships&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;types-of-relationships&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#types-of-relationships&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;AutoCRUD supports several relationship types:&lt;/p&gt;
-&lt;h3&gt;One-to-Many Relationship&lt;span class=&#34;absolute -mt-20&#34; id=&#34;one-to-many-relationship&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;One-to-Many Relationship&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;one-to-many-relationship&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#one-to-many-relationship&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The most common relationship type, where one record in Table A can be linked to multiple records in Table B.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;: A Customer (Table A) can have multiple Orders (Table B).&lt;/p&gt;
-&lt;h3&gt;Many-to-Many Relationship&lt;span class=&#34;absolute -mt-20&#34; id=&#34;many-to-many-relationship&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Many-to-Many Relationship&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;many-to-many-relationship&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#many-to-many-relationship&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;A relationship where records in both tables can link to multiple records in the other table.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;: Students (Table A) can enroll in multiple Courses (Table B), and each Course can have multiple Students.&lt;/p&gt;
-&lt;h3&gt;One-to-One Relationship&lt;span class=&#34;absolute -mt-20&#34; id=&#34;one-to-one-relationship&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;One-to-One Relationship&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;one-to-one-relationship&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#one-to-one-relationship&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;A relationship where one record in Table A corresponds to exactly one record in Table B.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;: An Employee (Table A) has one detailed Profile (Table B).&lt;/p&gt;
-&lt;h2&gt;Creating Table Relationships&lt;span class=&#34;absolute -mt-20&#34; id=&#34;creating-table-relationships&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#creating-table-relationships&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Step 1: Add a Link Field&lt;span class=&#34;absolute -mt-20&#34; id=&#34;step-1-add-a-link-field&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Creating Table Relationships&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;creating-table-relationships&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#creating-table-relationships&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Step 1: Add a Link Field&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;step-1-add-a-link-field&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#step-1-add-a-link-field&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;Open the table where you want to create the link&lt;/li&gt;
 &lt;li&gt;Click &lt;strong&gt;+ Add Field&lt;/strong&gt;&lt;/li&gt;
@@ -898,7 +899,7 @@
 &lt;/ol&gt;
 &lt;!-- LINK FIELD CREATION SCREENSHOT --&gt;
 &lt;!-- ![Creating Link Field](/images/creating-link-field.png) --&gt;
-&lt;h3&gt;Step 2: Configure Reciprocal Field (Automatic)&lt;span class=&#34;absolute -mt-20&#34; id=&#34;step-2-configure-reciprocal-field-automatic&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Step 2: Configure Reciprocal Field (Automatic)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;step-2-configure-reciprocal-field-automatic&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#step-2-configure-reciprocal-field-automatic&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;When you create a link field, AutoCRUD automatically creates a reciprocal field in the linked table:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;For One-to-Many: Creates a &amp;ldquo;Many&amp;rdquo; field in the linked table&lt;/li&gt;
@@ -906,8 +907,8 @@
 &lt;li&gt;For One-to-One: Creates a &amp;ldquo;One&amp;rdquo; field in the linked table&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;You can rename these reciprocal fields to better describe the relationship.&lt;/p&gt;
-&lt;h2&gt;Working with Linked Records&lt;span class=&#34;absolute -mt-20&#34; id=&#34;working-with-linked-records&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#working-with-linked-records&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Adding Links Between Records&lt;span class=&#34;absolute -mt-20&#34; id=&#34;adding-links-between-records&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Working with Linked Records&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;working-with-linked-records&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#working-with-linked-records&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Adding Links Between Records&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;adding-links-between-records&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#adding-links-between-records&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;To link records together:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Open the record you want to link from&lt;/li&gt;
@@ -915,7 +916,7 @@
 &lt;li&gt;Search for or select the record(s) you want to link to&lt;/li&gt;
 &lt;li&gt;Click outside the cell to save&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Viewing Linked Records&lt;span class=&#34;absolute -mt-20&#34; id=&#34;viewing-linked-records&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Viewing Linked Records&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;viewing-linked-records&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#viewing-linked-records&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;When viewing a record with links:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;The link field shows the linked records&lt;/li&gt;
@@ -923,15 +924,15 @@
 &lt;li&gt;Use the &amp;ldquo;+&amp;rdquo; icon to add more links&lt;/li&gt;
 &lt;li&gt;Use the &amp;ldquo;x&amp;rdquo; icon to remove links&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Expanding Linked Records&lt;span class=&#34;absolute -mt-20&#34; id=&#34;expanding-linked-records&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Expanding Linked Records&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;expanding-linked-records&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#expanding-linked-records&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;To see more details about linked records:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Click on the linked record&lt;/li&gt;
 &lt;li&gt;Select &lt;strong&gt;Expand Record&lt;/strong&gt; to see full details&lt;/li&gt;
 &lt;li&gt;Navigate between linked records using the arrows&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;Advanced Relationship Features&lt;span class=&#34;absolute -mt-20&#34; id=&#34;advanced-relationship-features&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#advanced-relationship-features&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Lookup Fields&lt;span class=&#34;absolute -mt-20&#34; id=&#34;lookup-fields&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Advanced Relationship Features&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;advanced-relationship-features&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#advanced-relationship-features&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Lookup Fields&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;lookup-fields&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#lookup-fields&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Lookup fields display information from linked records directly in your table:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Add a new field to your table&lt;/li&gt;
@@ -943,7 +944,7 @@
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;: In an Orders table with a link to Customers, add a lookup field to display the Customer&amp;rsquo;s email or phone number directly in the Orders table.&lt;/p&gt;
 &lt;!-- LOOKUP FIELD SCREENSHOT --&gt;
 &lt;!-- ![Lookup Field](/images/lookup-field.png) --&gt;
-&lt;h3&gt;Rollup Fields&lt;span class=&#34;absolute -mt-20&#34; id=&#34;rollup-fields&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Rollup Fields&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;rollup-fields&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#rollup-fields&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Rollup fields perform calculations on linked records:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Add a new field to your table&lt;/li&gt;
@@ -953,7 +954,7 @@
 &lt;li&gt;Choose the aggregation function (Sum, Average, Count, etc.)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;: In a Projects table with links to Tasks, add a rollup field to count the total number of tasks or sum their estimated hours.&lt;/p&gt;
-&lt;h3&gt;Filtering Linked Records&lt;span class=&#34;absolute -mt-20&#34; id=&#34;filtering-linked-records&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Filtering Linked Records&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;filtering-linked-records&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#filtering-linked-records&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;When adding links, you can filter which records are available to link:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Click in a link field&lt;/li&gt;
@@ -961,59 +962,59 @@
 &lt;li&gt;Set conditions to narrow down the available records&lt;/li&gt;
 &lt;li&gt;Select from the filtered list&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;Best Practices for Table Relationships&lt;span class=&#34;absolute -mt-20&#34; id=&#34;best-practices-for-table-relationships&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#best-practices-for-table-relationships&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Data Model Planning&lt;span class=&#34;absolute -mt-20&#34; id=&#34;data-model-planning&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Best Practices for Table Relationships&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;best-practices-for-table-relationships&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#best-practices-for-table-relationships&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Data Model Planning&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;data-model-planning&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#data-model-planning&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Plan your data model before creating complex relationships&lt;/li&gt;
 &lt;li&gt;Diagram your tables and their connections&lt;/li&gt;
 &lt;li&gt;Consider what types of queries you&amp;rsquo;ll need to perform&lt;/li&gt;
 &lt;li&gt;Think about data integrity and maintenance&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Naming Conventions&lt;span class=&#34;absolute -mt-20&#34; id=&#34;naming-conventions&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Naming Conventions&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;naming-conventions&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#naming-conventions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Use clear, descriptive names for link fields&lt;/li&gt;
 &lt;li&gt;Name link fields based on the relationship they represent&lt;/li&gt;
 &lt;li&gt;Be consistent with naming patterns across your workspace&lt;/li&gt;
 &lt;li&gt;Consider using prefixes for related fields&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Performance Considerations&lt;span class=&#34;absolute -mt-20&#34; id=&#34;performance-considerations&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Performance Considerations&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;performance-considerations&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#performance-considerations&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Avoid creating unnecessary relationships&lt;/li&gt;
 &lt;li&gt;Be cautious with deeply nested lookups and rollups&lt;/li&gt;
 &lt;li&gt;Consider breaking very complex relationships into simpler ones&lt;/li&gt;
 &lt;li&gt;Use filters to limit the number of linked records when possible&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Common Use Cases&lt;span class=&#34;absolute -mt-20&#34; id=&#34;common-use-cases&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#common-use-cases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Customer Relationship Management (CRM)&lt;span class=&#34;absolute -mt-20&#34; id=&#34;customer-relationship-management-crm&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Common Use Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;common-use-cases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#common-use-cases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Customer Relationship Management (CRM)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;customer-relationship-management-crm&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#customer-relationship-management-crm&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Customers linked to Orders&lt;/li&gt;
 &lt;li&gt;Contacts linked to Companies&lt;/li&gt;
 &lt;li&gt;Activities linked to Customers&lt;/li&gt;
 &lt;li&gt;Products linked to Orders&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Project Management&lt;span class=&#34;absolute -mt-20&#34; id=&#34;project-management&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Project Management&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;project-management&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#project-management&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Projects linked to Tasks&lt;/li&gt;
 &lt;li&gt;Tasks linked to Team Members&lt;/li&gt;
 &lt;li&gt;Projects linked to Clients&lt;/li&gt;
 &lt;li&gt;Resources linked to Tasks&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Inventory Management&lt;span class=&#34;absolute -mt-20&#34; id=&#34;inventory-management&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Inventory Management&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;inventory-management&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#inventory-management&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Products linked to Categories&lt;/li&gt;
 &lt;li&gt;Products linked to Suppliers&lt;/li&gt;
 &lt;li&gt;Orders linked to Products&lt;/li&gt;
 &lt;li&gt;Warehouses linked to Inventory Items&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Troubleshooting Relationships&lt;span class=&#34;absolute -mt-20&#34; id=&#34;troubleshooting-relationships&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#troubleshooting-relationships&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Common Issues&lt;span class=&#34;absolute -mt-20&#34; id=&#34;common-issues&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Troubleshooting Relationships&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;troubleshooting-relationships&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#troubleshooting-relationships&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Common Issues&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;common-issues&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#common-issues&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Issue&lt;/strong&gt;: Cannot see reciprocal field
 &lt;strong&gt;Solution&lt;/strong&gt;: Check if the field was renamed or hidden; unhide the field in the field settings&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Issue&lt;/strong&gt;: Lookup or rollup field not updating
 &lt;strong&gt;Solution&lt;/strong&gt;: Refresh the view or check if the relationship is set up correctly&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Issue&lt;/strong&gt;: Difficulty selecting the right records to link
 &lt;strong&gt;Solution&lt;/strong&gt;: Use filters or improve naming conventions for clearer identification&lt;/p&gt;
-&lt;h2&gt;Next Steps&lt;span class=&#34;absolute -mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Next Steps&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#next-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Now that you understand table relationships, learn about:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://localhost:1313/autocrud-doc/docs/flows/tables-integration/&#34; &gt;Building Automated Workflows with Tables&lt;/a&gt;&lt;/li&gt;

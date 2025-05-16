@@ -8,10 +8,8 @@ params:
     displayTitle: true
     displayLogo: true
     logo:
-      path: /images/WordpressTransparent.png
+      path: images/WordpressTransparent.png
       alt: AutoCRUD Logo
-      height: "40"
-      width: "150"
 
   sidebar:
     enabled: true
@@ -22,7 +20,7 @@ module:
     min: "0.110.0"
   imports:
     - path: github.com/imfing/hextra
-
+      min: "0.110.0"
 markup:
   goldmark:
     renderer:

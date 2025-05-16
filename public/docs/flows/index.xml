@@ -24,12 +24,12 @@
         
         
         &lt;h1&gt;Creating Your First Flow&lt;/h1&gt;&lt;p&gt;AutoCRUD&amp;rsquo;s visual flow builder makes it easy to create powerful automated workflows without writing code. This guide will walk you through creating your first flow.&lt;/p&gt;
-&lt;h2&gt;Prerequisites&lt;span class=&#34;absolute -mt-20&#34; id=&#34;prerequisites&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Prerequisites&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;prerequisites&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#prerequisites&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;An AutoCRUD account with access to a workspace&lt;/li&gt;
 &lt;li&gt;Basic understanding of the workflow concept&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Step 1: Access the Flows Section&lt;span class=&#34;absolute -mt-20&#34; id=&#34;step-1-access-the-flows-section&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Step 1: Access the Flows Section&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;step-1-access-the-flows-section&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#step-1-access-the-flows-section&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;Navigate to your workspace dashboard&lt;/li&gt;
 &lt;li&gt;Click on the &lt;strong&gt;Flows&lt;/strong&gt; icon in the left sidebar&lt;/li&gt;
@@ -37,7 +37,7 @@
 &lt;/ol&gt;
 &lt;!-- CREATING FLOW SCREENSHOT --&gt;
 &lt;!-- ![Create Flow Button](/images/flows-create-button.png) --&gt;
-&lt;h2&gt;Step 2: Design Your Workflow&lt;span class=&#34;absolute -mt-20&#34; id=&#34;step-2-design-your-workflow&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Step 2: Design Your Workflow&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;step-2-design-your-workflow&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#step-2-design-your-workflow&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Once in the flow builder, you&amp;rsquo;ll see a canvas where you can design your workflow:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Start with a &lt;strong&gt;Trigger Node&lt;/strong&gt; (automatically added)&lt;/li&gt;
@@ -46,7 +46,7 @@
 &lt;/ol&gt;
 &lt;!-- FLOW DESIGN SCREENSHOT --&gt;
 &lt;!-- ![Flow Design Interface](/images/flow-design-interface.png) --&gt;
-&lt;h2&gt;Step 3: Configure Your Trigger&lt;span class=&#34;absolute -mt-20&#34; id=&#34;step-3-configure-your-trigger&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Step 3: Configure Your Trigger&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;step-3-configure-your-trigger&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#step-3-configure-your-trigger&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Every flow starts with a trigger that determines when your workflow will run:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Click on the trigger node to open its configuration panel&lt;/li&gt;
@@ -61,7 +61,7 @@
 &lt;/ol&gt;
 &lt;!-- TRIGGER CONFIGURATION SCREENSHOT --&gt;
 &lt;!-- ![Trigger Configuration](/images/trigger-configuration.png) --&gt;
-&lt;h2&gt;Step 4: Add and Configure Action Nodes&lt;span class=&#34;absolute -mt-20&#34; id=&#34;step-4-add-and-configure-action-nodes&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Step 4: Add and Configure Action Nodes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;step-4-add-and-configure-action-nodes&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#step-4-add-and-configure-action-nodes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Add actions to your workflow to perform specific tasks:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Click on the + button to add a node&lt;/li&gt;
@@ -77,7 +77,7 @@
 &lt;/ol&gt;
 &lt;!-- NODE CONFIGURATION SCREENSHOT --&gt;
 &lt;!-- ![Node Configuration Panel](/images/node-config-panel.png) --&gt;
-&lt;h2&gt;Step 5: Test Your Flow&lt;span class=&#34;absolute -mt-20&#34; id=&#34;step-5-test-your-flow&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Step 5: Test Your Flow&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;step-5-test-your-flow&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#step-5-test-your-flow&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Before deploying your flow, you should test it to ensure it works as expected:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Click the &lt;strong&gt;Play&lt;/strong&gt; button in the toolbar to run your flow&lt;/li&gt;
@@ -85,14 +85,14 @@
 &lt;li&gt;Check node outputs to verify the results&lt;/li&gt;
 &lt;li&gt;Make adjustments as needed&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;Step 6: Save and Activate Your Flow&lt;span class=&#34;absolute -mt-20&#34; id=&#34;step-6-save-and-activate-your-flow&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Step 6: Save and Activate Your Flow&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;step-6-save-and-activate-your-flow&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#step-6-save-and-activate-your-flow&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Once you&amp;rsquo;re satisfied with your flow:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Give your flow a descriptive name&lt;/li&gt;
 &lt;li&gt;Click the &lt;strong&gt;Save&lt;/strong&gt; button&lt;/li&gt;
 &lt;li&gt;Activate your flow to make it live&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;Example: Simple Email Notification Flow&lt;span class=&#34;absolute -mt-20&#34; id=&#34;example-simple-email-notification-flow&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Example: Simple Email Notification Flow&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;example-simple-email-notification-flow&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#example-simple-email-notification-flow&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Let&amp;rsquo;s create a simple flow that sends an email when triggered:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Start with a trigger node (e.g., HTTP trigger)&lt;/li&gt;
@@ -103,7 +103,7 @@
 &lt;/ol&gt;
 &lt;!-- EXAMPLE FLOW SCREENSHOT --&gt;
 &lt;!-- ![Example Email Flow](/images/example-email-flow.png) --&gt;
-&lt;h2&gt;Next Steps&lt;span class=&#34;absolute -mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Next Steps&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#next-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Now that you&amp;rsquo;ve created your first flow, you can:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Explore more complex workflows with multiple nodes&lt;/li&gt;
@@ -125,8 +125,8 @@
         
         
         &lt;h1&gt;Flow Triggers&lt;/h1&gt;&lt;p&gt;Triggers are the starting points of your workflows. They determine when and how your flow will be executed. AutoCRUD offers several trigger types to suit different automation needs.&lt;/p&gt;
-&lt;h2&gt;Available Trigger Types&lt;span class=&#34;absolute -mt-20&#34; id=&#34;available-trigger-types&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#available-trigger-types&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;On Schedule Trigger&lt;span class=&#34;absolute -mt-20&#34; id=&#34;on-schedule-trigger&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Available Trigger Types&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;available-trigger-types&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#available-trigger-types&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;On Schedule Trigger&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;on-schedule-trigger&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#on-schedule-trigger&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Schedule your workflows to run at specific times or intervals.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -142,7 +142,7 @@
 &lt;/ul&gt;
 &lt;!-- SCHEDULE TRIGGER SCREENSHOT --&gt;
 &lt;!-- ![Schedule Trigger](/images/schedule-trigger.png) --&gt;
-&lt;h3&gt;HTTP Trigger&lt;span class=&#34;absolute -mt-20&#34; id=&#34;http-trigger&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;HTTP Trigger&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;http-trigger&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#http-trigger&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Trigger your workflows via webhooks when external events occur.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -158,7 +158,7 @@
 &lt;/ul&gt;
 &lt;!-- HTTP TRIGGER SCREENSHOT --&gt;
 &lt;!-- ![HTTP Trigger](/images/http-trigger.png) --&gt;
-&lt;h3&gt;On Demand Trigger&lt;span class=&#34;absolute -mt-20&#34; id=&#34;on-demand-trigger&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;On Demand Trigger&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;on-demand-trigger&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#on-demand-trigger&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Manually trigger your workflows when needed.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -174,15 +174,15 @@
 &lt;/ul&gt;
 &lt;!-- ON DEMAND TRIGGER SCREENSHOT --&gt;
 &lt;!-- ![On Demand Trigger](/images/on-demand-trigger.png) --&gt;
-&lt;h2&gt;Configuring Triggers&lt;span class=&#34;absolute -mt-20&#34; id=&#34;configuring-triggers&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#configuring-triggers&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Basic Configuration&lt;span class=&#34;absolute -mt-20&#34; id=&#34;basic-configuration&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Configuring Triggers&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;configuring-triggers&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#configuring-triggers&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Basic Configuration&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;basic-configuration&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#basic-configuration&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;Click on the trigger node in your flow&lt;/li&gt;
 &lt;li&gt;Select the desired trigger type&lt;/li&gt;
 &lt;li&gt;Configure the specific settings for that trigger&lt;/li&gt;
 &lt;li&gt;Save your changes&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Advanced Options&lt;span class=&#34;absolute -mt-20&#34; id=&#34;advanced-options&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Advanced Options&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;advanced-options&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#advanced-options&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Depending on the trigger type, you may have access to advanced options:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Retry Settings&lt;/strong&gt;: Configure automatic retries on failure&lt;/li&gt;
@@ -190,7 +190,7 @@
 &lt;li&gt;&lt;strong&gt;Input Parameters&lt;/strong&gt;: Define expected input data&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Error Handling&lt;/strong&gt;: Configure actions on trigger failure&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Best Practices&lt;span class=&#34;absolute -mt-20&#34; id=&#34;best-practices&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Best Practices&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;best-practices&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#best-practices&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Choose the Right Trigger&lt;/strong&gt;: Select the most appropriate trigger type for your automation needs&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Document Webhook URLs&lt;/strong&gt;: Keep track of webhook URLs for HTTP triggers&lt;/li&gt;
@@ -198,45 +198,51 @@
 &lt;li&gt;&lt;strong&gt;Monitor Execution&lt;/strong&gt;: Regularly check trigger execution logs for issues&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Set Reasonable Schedules&lt;/strong&gt;: Avoid scheduling too many flows at the same time&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Examples&lt;span class=&#34;absolute -mt-20&#34; id=&#34;examples&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#examples&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Daily Database Backup&lt;span class=&#34;absolute -mt-20&#34; id=&#34;daily-database-backup&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#daily-database-backup&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;code-block relative mt-6 first:mt-0 group/code&#34;&gt;&lt;pre&gt;&lt;code&gt;Trigger Type: On Schedule
-Schedule: Daily at 2:00 AM&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0 transition group-hover/code:opacity-100 flex gap-1 absolute m-[11px] right-0 top-0&#34;&gt;
-    &lt;button
-      class=&#34;code-copy-btn group/copybtn transition-all active:opacity-50 bg-primary-700/5 border border-black/5 text-gray-600 hover:text-gray-900 rounded-md p-1.5 dark:bg-primary-300/10 dark:border-white/10 dark:text-gray-400 dark:hover:text-gray-50&#34;
-      title=&#34;Copy code&#34;
-    &gt;
-      &lt;div class=&#34;group-[.copied]/copybtn:hidden copy-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;hidden group-[.copied]/copybtn:block success-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-    &lt;/button&gt;
-  &lt;/div&gt;
+&lt;h2&gt;Examples&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;examples&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#examples&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Daily Database Backup&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;daily-database-backup&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#daily-database-backup&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Trigger Type: On Schedule
+Schedule: Daily at 2:00 AM&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
 &lt;/div&gt;
-&lt;h3&gt;Customer Support Ticket Handler&lt;span class=&#34;absolute -mt-20&#34; id=&#34;customer-support-ticket-handler&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#customer-support-ticket-handler&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;code-block relative mt-6 first:mt-0 group/code&#34;&gt;&lt;pre&gt;&lt;code&gt;Trigger Type: HTTP
+&lt;/div&gt;
+&lt;h3&gt;Customer Support Ticket Handler&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;customer-support-ticket-handler&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#customer-support-ticket-handler&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Trigger Type: HTTP
 Method: POST
-Endpoint: /api/tickets&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0 transition group-hover/code:opacity-100 flex gap-1 absolute m-[11px] right-0 top-0&#34;&gt;
-    &lt;button
-      class=&#34;code-copy-btn group/copybtn transition-all active:opacity-50 bg-primary-700/5 border border-black/5 text-gray-600 hover:text-gray-900 rounded-md p-1.5 dark:bg-primary-300/10 dark:border-white/10 dark:text-gray-400 dark:hover:text-gray-50&#34;
-      title=&#34;Copy code&#34;
-    &gt;
-      &lt;div class=&#34;group-[.copied]/copybtn:hidden copy-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;hidden group-[.copied]/copybtn:block success-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-    &lt;/button&gt;
-  &lt;/div&gt;
+Endpoint: /api/tickets&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
 &lt;/div&gt;
-&lt;h3&gt;Manual Data Import Process&lt;span class=&#34;absolute -mt-20&#34; id=&#34;manual-data-import-process&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#manual-data-import-process&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;code-block relative mt-6 first:mt-0 group/code&#34;&gt;&lt;pre&gt;&lt;code&gt;Trigger Type: On Demand
-Input Parameters: File Path&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0 transition group-hover/code:opacity-100 flex gap-1 absolute m-[11px] right-0 top-0&#34;&gt;
-    &lt;button
-      class=&#34;code-copy-btn group/copybtn transition-all active:opacity-50 bg-primary-700/5 border border-black/5 text-gray-600 hover:text-gray-900 rounded-md p-1.5 dark:bg-primary-300/10 dark:border-white/10 dark:text-gray-400 dark:hover:text-gray-50&#34;
-      title=&#34;Copy code&#34;
-    &gt;
-      &lt;div class=&#34;group-[.copied]/copybtn:hidden copy-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;hidden group-[.copied]/copybtn:block success-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-    &lt;/button&gt;
-  &lt;/div&gt;
 &lt;/div&gt;
-&lt;h2&gt;Troubleshooting&lt;span class=&#34;absolute -mt-20&#34; id=&#34;troubleshooting&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Manual Data Import Process&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;manual-data-import-process&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#manual-data-import-process&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Trigger Type: On Demand
+Input Parameters: File Path&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;Troubleshooting&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;troubleshooting&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#troubleshooting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;If your trigger isn&amp;rsquo;t working as expected:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Check the trigger configuration settings&lt;/li&gt;
@@ -259,8 +265,8 @@ Input Parameters: File Path&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0
         
         
         &lt;h1&gt;Flow Nodes&lt;/h1&gt;&lt;p&gt;Nodes are the building blocks of your workflows in AutoCRUD. Each node performs a specific action, from sending emails to making HTTP requests to processing data. This guide covers all available node types and how to use them.&lt;/p&gt;
-&lt;h2&gt;Basic Nodes&lt;span class=&#34;absolute -mt-20&#34; id=&#34;basic-nodes&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#basic-nodes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Send Email&lt;span class=&#34;absolute -mt-20&#34; id=&#34;send-email&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Basic Nodes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;basic-nodes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#basic-nodes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Send Email&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;send-email&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#send-email&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Send emails through various providers like SMTP, AWS SES, and more.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -279,7 +285,7 @@ Input Parameters: File Path&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0
 &lt;/ul&gt;
 &lt;!-- SEND EMAIL NODE SCREENSHOT --&gt;
 &lt;!-- ![Send Email Node](/images/send-email-node.png) --&gt;
-&lt;h3&gt;HTTP Request&lt;span class=&#34;absolute -mt-20&#34; id=&#34;http-request&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;HTTP Request&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;http-request&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#http-request&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Make API calls to external services or fetch data from the web.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -298,7 +304,7 @@ Input Parameters: File Path&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0
 &lt;/ul&gt;
 &lt;!-- HTTP REQUEST NODE SCREENSHOT --&gt;
 &lt;!-- ![HTTP Request Node](/images/http-request-node.png) --&gt;
-&lt;h3&gt;Ask Question&lt;span class=&#34;absolute -mt-20&#34; id=&#34;ask-question&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Ask Question&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;ask-question&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#ask-question&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Leverage AI to generate responses to questions.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -315,8 +321,8 @@ Input Parameters: File Path&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0
 &lt;/ul&gt;
 &lt;!-- ASK QUESTION NODE SCREENSHOT --&gt;
 &lt;!-- ![Ask Question Node](/images/ask-question-node.png) --&gt;
-&lt;h2&gt;Advanced Nodes&lt;span class=&#34;absolute -mt-20&#34; id=&#34;advanced-nodes&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#advanced-nodes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;If Condition&lt;span class=&#34;absolute -mt-20&#34; id=&#34;if-condition&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Advanced Nodes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;advanced-nodes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#advanced-nodes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;If Condition&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;if-condition&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#if-condition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Add branching logic to your workflows based on conditions.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -332,7 +338,7 @@ Input Parameters: File Path&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0
 &lt;li&gt;&lt;strong&gt;Value B&lt;/strong&gt;: Second value to compare&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Operator&lt;/strong&gt;: AND, OR, NOT&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Generate Image&lt;span class=&#34;absolute -mt-20&#34; id=&#34;generate-image&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Generate Image&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;generate-image&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#generate-image&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Create images using AI-powered image generation.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -348,7 +354,7 @@ Input Parameters: File Path&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0
 &lt;li&gt;&lt;strong&gt;Size&lt;/strong&gt;: Dimensions of the output image&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Format&lt;/strong&gt;: Output file format&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Embeddings&lt;span class=&#34;absolute -mt-20&#34; id=&#34;embeddings&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Embeddings&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;embeddings&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#embeddings&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Generate vector embeddings for text and data.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -364,7 +370,7 @@ Input Parameters: File Path&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0
 &lt;li&gt;&lt;strong&gt;Dimensions&lt;/strong&gt;: Vector dimension size&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Output Format&lt;/strong&gt;: How to structure the result&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Information Extractor Schema&lt;span class=&#34;absolute -mt-20&#34; id=&#34;information-extractor-schema&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Information Extractor Schema&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;information-extractor-schema&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#information-extractor-schema&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Extract structured data from unstructured content.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -380,7 +386,7 @@ Input Parameters: File Path&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0
 &lt;li&gt;&lt;strong&gt;Format&lt;/strong&gt;: Input format type&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Output&lt;/strong&gt;: How to structure the result&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Content Moderation&lt;span class=&#34;absolute -mt-20&#34; id=&#34;content-moderation&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Content Moderation&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;content-moderation&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#content-moderation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Filter and analyze content for inappropriate material.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -396,29 +402,29 @@ Input Parameters: File Path&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0
 &lt;li&gt;&lt;strong&gt;Threshold&lt;/strong&gt;: Sensitivity level&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Action&lt;/strong&gt;: What to do when content is flagged&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Working with Nodes&lt;span class=&#34;absolute -mt-20&#34; id=&#34;working-with-nodes&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#working-with-nodes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Adding Nodes to a Flow&lt;span class=&#34;absolute -mt-20&#34; id=&#34;adding-nodes-to-a-flow&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Working with Nodes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;working-with-nodes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#working-with-nodes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Adding Nodes to a Flow&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;adding-nodes-to-a-flow&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#adding-nodes-to-a-flow&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;Click the &amp;ldquo;+&amp;rdquo; button in the flow builder&lt;/li&gt;
 &lt;li&gt;Select the desired node type from the menu&lt;/li&gt;
 &lt;li&gt;Position the node on the canvas&lt;/li&gt;
 &lt;li&gt;Connect it to other nodes in your flow&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Configuring Nodes&lt;span class=&#34;absolute -mt-20&#34; id=&#34;configuring-nodes&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Configuring Nodes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;configuring-nodes&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#configuring-nodes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;Click on a node to select it&lt;/li&gt;
 &lt;li&gt;Use the configuration panel on the right to set options&lt;/li&gt;
 &lt;li&gt;Required fields are marked with an asterisk (*)&lt;/li&gt;
 &lt;li&gt;Click &amp;ldquo;Apply&amp;rdquo; or &amp;ldquo;Save&amp;rdquo; to confirm changes&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Connecting Nodes&lt;span class=&#34;absolute -mt-20&#34; id=&#34;connecting-nodes&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Connecting Nodes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;connecting-nodes&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#connecting-nodes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;Click and drag from the output handle of one node&lt;/li&gt;
 &lt;li&gt;Release on the input handle of another node&lt;/li&gt;
 &lt;li&gt;A connection line will appear between the nodes&lt;/li&gt;
 &lt;li&gt;Data will flow through this connection during execution&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Testing Node Output&lt;span class=&#34;absolute -mt-20&#34; id=&#34;testing-node-output&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Testing Node Output&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;testing-node-output&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#testing-node-output&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Most nodes have a &amp;ldquo;Test&amp;rdquo; button that allows you to:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Execute just that node&lt;/li&gt;
@@ -426,7 +432,7 @@ Input Parameters: File Path&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0
 &lt;li&gt;Troubleshoot configuration issues&lt;/li&gt;
 &lt;li&gt;Verify correct functionality&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Best Practices&lt;span class=&#34;absolute -mt-20&#34; id=&#34;best-practices&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Best Practices&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;best-practices&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#best-practices&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Name Your Nodes&lt;/strong&gt;: Give descriptive names to make your flow easier to understand&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Organize Your Layout&lt;/strong&gt;: Arrange nodes logically from left to right&lt;/li&gt;
@@ -434,7 +440,7 @@ Input Parameters: File Path&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0
 &lt;li&gt;&lt;strong&gt;Test Incrementally&lt;/strong&gt;: Verify each node works before connecting the next one&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Handle Errors&lt;/strong&gt;: Include error handling for critical nodes&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Next Steps&lt;span class=&#34;absolute -mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Next Steps&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#next-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Now that you understand the available nodes, learn how to implement &lt;a href=&#34;http://localhost:1313/autocrud-doc/docs/flows/error-handling/&#34; &gt;Error Handling&lt;/a&gt; in your flows.&lt;/p&gt;
 
       </description>
@@ -450,7 +456,7 @@ Input Parameters: File Path&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0
         
         
         &lt;h1&gt;Error Handling in Flows&lt;/h1&gt;&lt;p&gt;Even the best-designed workflows can encounter errors. AutoCRUD provides robust error handling capabilities to help you build resilient flows that can recover from failures and provide meaningful feedback.&lt;/p&gt;
-&lt;h2&gt;Understanding Flow Errors&lt;span class=&#34;absolute -mt-20&#34; id=&#34;understanding-flow-errors&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Understanding Flow Errors&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;understanding-flow-errors&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#understanding-flow-errors&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Errors in workflows can occur for various reasons:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;External Service Failures&lt;/strong&gt;: APIs might be down or responding with errors&lt;/li&gt;
@@ -459,9 +465,9 @@ Input Parameters: File Path&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0
 &lt;li&gt;&lt;strong&gt;Timeout Errors&lt;/strong&gt;: Operations taking too long to complete&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Resource Limitations&lt;/strong&gt;: Hitting quotas or resource constraints&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Error Handling Options&lt;span class=&#34;absolute -mt-20&#34; id=&#34;error-handling-options&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Error Handling Options&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;error-handling-options&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#error-handling-options&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;AutoCRUD provides several ways to handle errors in your flows:&lt;/p&gt;
-&lt;h3&gt;1. Node-Level Error Handling&lt;span class=&#34;absolute -mt-20&#34; id=&#34;1-node-level-error-handling&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;1. Node-Level Error Handling&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-node-level-error-handling&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#1-node-level-error-handling&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Each node can be configured with specific error handling behavior:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Retry&lt;/strong&gt;: Automatically retry the operation on failure&lt;/li&gt;
@@ -471,7 +477,7 @@ Input Parameters: File Path&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0
 &lt;/ul&gt;
 &lt;!-- NODE ERROR HANDLING SCREENSHOT --&gt;
 &lt;!-- ![Node Error Handling](/images/node-error-handling.png) --&gt;
-&lt;h3&gt;2. Try/Catch Patterns&lt;span class=&#34;absolute -mt-20&#34; id=&#34;2-trycatch-patterns&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;2. Try/Catch Patterns&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-trycatch-patterns&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#2-trycatch-patterns&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Implement a try/catch pattern in your flow design:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Create a main path for the &amp;ldquo;happy path&amp;rdquo; execution&lt;/li&gt;
@@ -480,15 +486,15 @@ Input Parameters: File Path&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0
 &lt;/ol&gt;
 &lt;!-- TRY CATCH PATTERN SCREENSHOT --&gt;
 &lt;!-- ![Try Catch Pattern](/images/try-catch-pattern.png) --&gt;
-&lt;h3&gt;3. Error Notifications&lt;span class=&#34;absolute -mt-20&#34; id=&#34;3-error-notifications&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;3. Error Notifications&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3-error-notifications&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#3-error-notifications&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Set up notifications for when errors occur:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Email alerts when flows fail&lt;/li&gt;
 &lt;li&gt;Logging to external monitoring systems&lt;/li&gt;
 &lt;li&gt;Integration with chat platforms for real-time alerts&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Implementing Error Handling&lt;span class=&#34;absolute -mt-20&#34; id=&#34;implementing-error-handling&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#implementing-error-handling&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Configure Retry Settings&lt;span class=&#34;absolute -mt-20&#34; id=&#34;configure-retry-settings&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Implementing Error Handling&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;implementing-error-handling&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#implementing-error-handling&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Configure Retry Settings&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;configure-retry-settings&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#configure-retry-settings&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;For transient errors, configure retry settings:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Select a node in your flow&lt;/li&gt;
@@ -497,19 +503,21 @@ Input Parameters: File Path&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0
 &lt;li&gt;Configure retry attempts, delays, and backoff strategy&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;Sample Retry Configuration:&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&#34;code-block relative mt-6 first:mt-0 group/code&#34;&gt;&lt;pre&gt;&lt;code&gt;Maximum Retries: 3
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Maximum Retries: 3
 Initial Delay: 5 seconds
-Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0 transition group-hover/code:opacity-100 flex gap-1 absolute m-[11px] right-0 top-0&#34;&gt;
-    &lt;button
-      class=&#34;code-copy-btn group/copybtn transition-all active:opacity-50 bg-primary-700/5 border border-black/5 text-gray-600 hover:text-gray-900 rounded-md p-1.5 dark:bg-primary-300/10 dark:border-white/10 dark:text-gray-400 dark:hover:text-gray-50&#34;
-      title=&#34;Copy code&#34;
-    &gt;
-      &lt;div class=&#34;group-[.copied]/copybtn:hidden copy-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;hidden group-[.copied]/copybtn:block success-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-    &lt;/button&gt;
-  &lt;/div&gt;
+Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
 &lt;/div&gt;
-&lt;h3&gt;Set Up Error Notification&lt;span class=&#34;absolute -mt-20&#34; id=&#34;set-up-error-notification&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;h3&gt;Set Up Error Notification&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;set-up-error-notification&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#set-up-error-notification&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;For critical workflows, set up error notifications:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Add a &amp;ldquo;Send Email&amp;rdquo; or &amp;ldquo;HTTP Request&amp;rdquo; node&lt;/li&gt;
@@ -517,7 +525,7 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Configure it to send details about the error&lt;/li&gt;
 &lt;li&gt;Include relevant context information for debugging&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Create Conditional Error Handling&lt;span class=&#34;absolute -mt-20&#34; id=&#34;create-conditional-error-handling&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Create Conditional Error Handling&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;create-conditional-error-handling&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#create-conditional-error-handling&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;For sophisticated error handling, use conditional logic:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Add an &amp;ldquo;If Condition&amp;rdquo; node after a potential failure point&lt;/li&gt;
@@ -525,9 +533,9 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Create different paths based on the error condition&lt;/li&gt;
 &lt;li&gt;Implement appropriate recovery actions for each scenario&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;Debugging and Troubleshooting&lt;span class=&#34;absolute -mt-20&#34; id=&#34;debugging-and-troubleshooting&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Debugging and Troubleshooting&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;debugging-and-troubleshooting&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#debugging-and-troubleshooting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;When errors occur, AutoCRUD provides tools to help you identify and fix the issues:&lt;/p&gt;
-&lt;h3&gt;Execution Logs&lt;span class=&#34;absolute -mt-20&#34; id=&#34;execution-logs&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Execution Logs&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;execution-logs&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#execution-logs&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Every flow execution is logged with detailed information:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Timestamp of each step&lt;/li&gt;
@@ -537,21 +545,21 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;/ul&gt;
 &lt;!-- EXECUTION LOGS SCREENSHOT --&gt;
 &lt;!-- ![Execution Logs](/images/execution-logs.png) --&gt;
-&lt;h3&gt;Visual Indicators&lt;span class=&#34;absolute -mt-20&#34; id=&#34;visual-indicators&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Visual Indicators&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;visual-indicators&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#visual-indicators&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The flow builder provides visual feedback on errors:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Red highlights for nodes that encountered errors&lt;/li&gt;
 &lt;li&gt;Warning icons for configuration issues&lt;/li&gt;
 &lt;li&gt;Status indicators for overall flow health&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Testing Tools&lt;span class=&#34;absolute -mt-20&#34; id=&#34;testing-tools&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Testing Tools&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;testing-tools&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#testing-tools&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Use the built-in testing tools to identify and fix errors:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Test individual nodes to isolate issues&lt;/li&gt;
 &lt;li&gt;View intermediate outputs to trace data flow&lt;/li&gt;
 &lt;li&gt;Simulate different input scenarios&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Best Practices&lt;span class=&#34;absolute -mt-20&#34; id=&#34;best-practices&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Best Practices&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;best-practices&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#best-practices&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Follow these best practices for effective error handling:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Anticipate Failures&lt;/strong&gt;: Identify potential failure points and plan for them&lt;/li&gt;
@@ -561,51 +569,57 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;&lt;strong&gt;Graceful Degradation&lt;/strong&gt;: Design flows to function with reduced capabilities when services are unavailable&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Regular Monitoring&lt;/strong&gt;: Set up monitoring to detect and respond to errors quickly&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Examples&lt;span class=&#34;absolute -mt-20&#34; id=&#34;examples&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#examples&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;API Rate Limit Handling&lt;span class=&#34;absolute -mt-20&#34; id=&#34;api-rate-limit-handling&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#api-rate-limit-handling&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;code-block relative mt-6 first:mt-0 group/code&#34;&gt;&lt;pre&gt;&lt;code&gt;If encounter &amp;#34;Rate Limit Exceeded&amp;#34; error:
+&lt;h2&gt;Examples&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;examples&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#examples&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;API Rate Limit Handling&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;api-rate-limit-handling&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#api-rate-limit-handling&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;If encounter &amp;#34;Rate Limit Exceeded&amp;#34; error:
 1. Wait for specified cooldown period
 2. Retry the request
-3. If still failing after 3 attempts, send notification&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0 transition group-hover/code:opacity-100 flex gap-1 absolute m-[11px] right-0 top-0&#34;&gt;
-    &lt;button
-      class=&#34;code-copy-btn group/copybtn transition-all active:opacity-50 bg-primary-700/5 border border-black/5 text-gray-600 hover:text-gray-900 rounded-md p-1.5 dark:bg-primary-300/10 dark:border-white/10 dark:text-gray-400 dark:hover:text-gray-50&#34;
-      title=&#34;Copy code&#34;
-    &gt;
-      &lt;div class=&#34;group-[.copied]/copybtn:hidden copy-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;hidden group-[.copied]/copybtn:block success-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-    &lt;/button&gt;
-  &lt;/div&gt;
+3. If still failing after 3 attempts, send notification&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
 &lt;/div&gt;
-&lt;h3&gt;Data Validation Flow&lt;span class=&#34;absolute -mt-20&#34; id=&#34;data-validation-flow&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#data-validation-flow&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;code-block relative mt-6 first:mt-0 group/code&#34;&gt;&lt;pre&gt;&lt;code&gt;1. Validate input data
+&lt;/div&gt;
+&lt;h3&gt;Data Validation Flow&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;data-validation-flow&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#data-validation-flow&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;1. Validate input data
 2. If validation fails:
    a. Log detailed validation errors
    b. Send notification with specific issues
-   c. Stop processing or route to cleanup actions&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0 transition group-hover/code:opacity-100 flex gap-1 absolute m-[11px] right-0 top-0&#34;&gt;
-    &lt;button
-      class=&#34;code-copy-btn group/copybtn transition-all active:opacity-50 bg-primary-700/5 border border-black/5 text-gray-600 hover:text-gray-900 rounded-md p-1.5 dark:bg-primary-300/10 dark:border-white/10 dark:text-gray-400 dark:hover:text-gray-50&#34;
-      title=&#34;Copy code&#34;
-    &gt;
-      &lt;div class=&#34;group-[.copied]/copybtn:hidden copy-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;hidden group-[.copied]/copybtn:block success-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-    &lt;/button&gt;
-  &lt;/div&gt;
+   c. Stop processing or route to cleanup actions&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
 &lt;/div&gt;
-&lt;h3&gt;Service Dependency Handling&lt;span class=&#34;absolute -mt-20&#34; id=&#34;service-dependency-handling&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#service-dependency-handling&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;code-block relative mt-6 first:mt-0 group/code&#34;&gt;&lt;pre&gt;&lt;code&gt;When external service is unavailable:
+&lt;/div&gt;
+&lt;h3&gt;Service Dependency Handling&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;service-dependency-handling&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#service-dependency-handling&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;When external service is unavailable:
 1. Try alternative service if available
 2. Store request for later processing
-3. Notify administrator of service outage&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0 transition group-hover/code:opacity-100 flex gap-1 absolute m-[11px] right-0 top-0&#34;&gt;
-    &lt;button
-      class=&#34;code-copy-btn group/copybtn transition-all active:opacity-50 bg-primary-700/5 border border-black/5 text-gray-600 hover:text-gray-900 rounded-md p-1.5 dark:bg-primary-300/10 dark:border-white/10 dark:text-gray-400 dark:hover:text-gray-50&#34;
-      title=&#34;Copy code&#34;
-    &gt;
-      &lt;div class=&#34;group-[.copied]/copybtn:hidden copy-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;hidden group-[.copied]/copybtn:block success-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-    &lt;/button&gt;
-  &lt;/div&gt;
+3. Notify administrator of service outage&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
 &lt;/div&gt;
-&lt;h2&gt;Next Steps&lt;span class=&#34;absolute -mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;h2&gt;Next Steps&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#next-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Now that you&amp;rsquo;ve learned about error handling, explore how to &lt;a href=&#34;http://localhost:1313/autocrud-doc/docs/flows/monitoring/&#34; &gt;Monitor and Manage&lt;/a&gt; your flows for optimal performance.&lt;/p&gt;
 
       </description>
@@ -621,7 +635,7 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
         
         
         &lt;h1&gt;Monitoring and Managing Flows&lt;/h1&gt;&lt;p&gt;Once you&amp;rsquo;ve built and deployed your workflows, it&amp;rsquo;s essential to monitor their performance and manage them effectively. AutoCRUD provides comprehensive tools to help you keep your workflows running smoothly.&lt;/p&gt;
-&lt;h2&gt;Flow Overview Dashboard&lt;span class=&#34;absolute -mt-20&#34; id=&#34;flow-overview-dashboard&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Flow Overview Dashboard&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;flow-overview-dashboard&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#flow-overview-dashboard&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The Flows Overview page provides a centralized view of all your workflows:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;See all flows in your workspace&lt;/li&gt;
@@ -632,8 +646,8 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;/ul&gt;
 &lt;!-- FLOWS OVERVIEW SCREENSHOT --&gt;
 &lt;!-- ![Flows Overview Dashboard](/images/flows-overview-dashboard.png) --&gt;
-&lt;h2&gt;Execution Monitoring&lt;span class=&#34;absolute -mt-20&#34; id=&#34;execution-monitoring&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#execution-monitoring&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Real-time Execution Tracking&lt;span class=&#34;absolute -mt-20&#34; id=&#34;real-time-execution-tracking&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Execution Monitoring&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;execution-monitoring&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#execution-monitoring&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Real-time Execution Tracking&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;real-time-execution-tracking&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#real-time-execution-tracking&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Monitor your flow executions in real-time:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Click on a flow to open it&lt;/li&gt;
@@ -643,7 +657,7 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;/ol&gt;
 &lt;!-- EXECUTIONS TAB SCREENSHOT --&gt;
 &lt;!-- ![Executions Tab](/images/executions-tab.png) --&gt;
-&lt;h3&gt;Execution Details&lt;span class=&#34;absolute -mt-20&#34; id=&#34;execution-details&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Execution Details&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;execution-details&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#execution-details&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;For each execution, you can view:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Start and end times&lt;/li&gt;
@@ -655,7 +669,7 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;p&gt;Click on any execution record to see the full details, including the execution path and node-by-node results.&lt;/p&gt;
 &lt;!-- EXECUTION DETAILS SCREENSHOT --&gt;
 &lt;!-- ![Execution Details](/images/execution-details.png) --&gt;
-&lt;h2&gt;Performance Metrics&lt;span class=&#34;absolute -mt-20&#34; id=&#34;performance-metrics&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Performance Metrics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;performance-metrics&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#performance-metrics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;AutoCRUD tracks key performance metrics for your flows:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Execution Count&lt;/strong&gt;: Number of times a flow has run&lt;/li&gt;
@@ -665,8 +679,8 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;&lt;strong&gt;Resource Usage&lt;/strong&gt;: Computational resources consumed&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Use these metrics to identify bottlenecks, optimize performance, and ensure reliability.&lt;/p&gt;
-&lt;h2&gt;Managing Workflows&lt;span class=&#34;absolute -mt-20&#34; id=&#34;managing-workflows&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#managing-workflows&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Activating and Deactivating Flows&lt;span class=&#34;absolute -mt-20&#34; id=&#34;activating-and-deactivating-flows&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Managing Workflows&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;managing-workflows&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#managing-workflows&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Activating and Deactivating Flows&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;activating-and-deactivating-flows&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#activating-and-deactivating-flows&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Control when your flows are active:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Navigate to the Flows Overview page&lt;/li&gt;
@@ -674,7 +688,7 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Use the toggle switch to activate or deactivate&lt;/li&gt;
 &lt;li&gt;Deactivated flows won&amp;rsquo;t run automatically but can still be triggered manually&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Version Control&lt;span class=&#34;absolute -mt-20&#34; id=&#34;version-control&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Version Control&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;version-control&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#version-control&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Keep track of changes to your workflows:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Each saved change creates a new version&lt;/li&gt;
@@ -682,7 +696,7 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Compare different versions&lt;/li&gt;
 &lt;li&gt;Revert to previous versions if needed&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Duplicating Flows&lt;span class=&#34;absolute -mt-20&#34; id=&#34;duplicating-flows&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Duplicating Flows&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;duplicating-flows&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#duplicating-flows&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Create copies of existing flows:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Open the flow you want to duplicate&lt;/li&gt;
@@ -690,16 +704,16 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Give the new flow a unique name&lt;/li&gt;
 &lt;li&gt;Modify as needed for your new use case&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Exporting and Importing&lt;span class=&#34;absolute -mt-20&#34; id=&#34;exporting-and-importing&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Exporting and Importing&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;exporting-and-importing&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#exporting-and-importing&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Share workflows between workspaces:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Export flows as JSON files&lt;/li&gt;
 &lt;li&gt;Import flows from JSON format&lt;/li&gt;
 &lt;li&gt;Clone workflows across environments&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Alerts and Notifications&lt;span class=&#34;absolute -mt-20&#34; id=&#34;alerts-and-notifications&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Alerts and Notifications&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;alerts-and-notifications&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#alerts-and-notifications&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Set up alerts to stay informed about your workflow performance:&lt;/p&gt;
-&lt;h3&gt;Execution Alerts&lt;span class=&#34;absolute -mt-20&#34; id=&#34;execution-alerts&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Execution Alerts&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;execution-alerts&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#execution-alerts&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Configure notifications for execution events:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Flow start and completion&lt;/li&gt;
@@ -707,7 +721,7 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Long-running executions&lt;/li&gt;
 &lt;li&gt;Custom condition triggers&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;System Notifications&lt;span class=&#34;absolute -mt-20&#34; id=&#34;system-notifications&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;System Notifications&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;system-notifications&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#system-notifications&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Receive updates about system-level events:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Schedule changes&lt;/li&gt;
@@ -715,8 +729,8 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Maintenance notices&lt;/li&gt;
 &lt;li&gt;Resource usage warnings&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Troubleshooting Common Issues&lt;span class=&#34;absolute -mt-20&#34; id=&#34;troubleshooting-common-issues&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#troubleshooting-common-issues&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Flow Not Triggering&lt;span class=&#34;absolute -mt-20&#34; id=&#34;flow-not-triggering&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Troubleshooting Common Issues&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;troubleshooting-common-issues&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#troubleshooting-common-issues&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Flow Not Triggering&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;flow-not-triggering&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#flow-not-triggering&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;If your flow isn&amp;rsquo;t triggering as expected:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Check if the flow is activated&lt;/li&gt;
@@ -724,7 +738,7 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Look for error messages in the execution logs&lt;/li&gt;
 &lt;li&gt;Ensure any external triggers are sending data correctly&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Slow Execution&lt;span class=&#34;absolute -mt-20&#34; id=&#34;slow-execution&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Slow Execution&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;slow-execution&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#slow-execution&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;If your flow is running slowly:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Identify bottleneck nodes using duration metrics&lt;/li&gt;
@@ -732,7 +746,7 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Optimize data processing steps&lt;/li&gt;
 &lt;li&gt;Consider refactoring complex flows into multiple simpler flows&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;High Error Rates&lt;span class=&#34;absolute -mt-20&#34; id=&#34;high-error-rates&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;High Error Rates&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;high-error-rates&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#high-error-rates&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;If your flow has a high error rate:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Review execution logs to identify patterns&lt;/li&gt;
@@ -740,7 +754,7 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Implement more robust error handling&lt;/li&gt;
 &lt;li&gt;Validate input data earlier in the flow&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;Best Practices&lt;span class=&#34;absolute -mt-20&#34; id=&#34;best-practices&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Best Practices&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;best-practices&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#best-practices&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Regular Audits&lt;/strong&gt;: Periodically review all active flows for relevance and performance&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Documentation&lt;/strong&gt;: Maintain clear documentation about each flow&amp;rsquo;s purpose and operation&lt;/li&gt;
@@ -749,8 +763,8 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;&lt;strong&gt;Consistent Naming&lt;/strong&gt;: Use a consistent naming convention for flows and nodes&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Clean Up&lt;/strong&gt;: Remove or archive obsolete flows to maintain a clean workspace&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Advanced Monitoring&lt;span class=&#34;absolute -mt-20&#34; id=&#34;advanced-monitoring&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#advanced-monitoring&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Custom Dashboards&lt;span class=&#34;absolute -mt-20&#34; id=&#34;custom-dashboards&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Advanced Monitoring&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;advanced-monitoring&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#advanced-monitoring&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Custom Dashboards&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;custom-dashboards&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#custom-dashboards&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Create custom dashboards for monitoring specific metrics:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Define the metrics you want to track&lt;/li&gt;
@@ -758,7 +772,7 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Set up refresh intervals&lt;/li&gt;
 &lt;li&gt;Share dashboards with team members&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Logging Integration&lt;span class=&#34;absolute -mt-20&#34; id=&#34;logging-integration&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Logging Integration&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;logging-integration&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#logging-integration&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Integrate with external logging systems:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Send execution logs to centralized logging platforms&lt;/li&gt;
@@ -766,7 +780,7 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Implement structured logging for better analysis&lt;/li&gt;
 &lt;li&gt;Set up log retention policies&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Next Steps&lt;span class=&#34;absolute -mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Next Steps&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#next-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Now that you understand how to monitor and manage your flows, learn about &lt;a href=&#34;http://localhost:1313/autocrud-doc/docs/flows/variables/&#34; &gt;Variables and Data Handling&lt;/a&gt; to make your workflows more dynamic and flexible.&lt;/p&gt;
 
       </description>
@@ -782,9 +796,9 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
         
         
         &lt;h1&gt;Variables and Data Handling&lt;/h1&gt;&lt;p&gt;Variables are essential for building dynamic and reusable workflows in AutoCRUD. They allow you to store, transform, and pass data between nodes in your flows, making your automations more powerful and flexible.&lt;/p&gt;
-&lt;h2&gt;Types of Variables&lt;span class=&#34;absolute -mt-20&#34; id=&#34;types-of-variables&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Types of Variables&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;types-of-variables&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#types-of-variables&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;AutoCRUD supports several types of variables:&lt;/p&gt;
-&lt;h3&gt;Global Variables&lt;span class=&#34;absolute -mt-20&#34; id=&#34;global-variables&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Global Variables&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;global-variables&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#global-variables&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Global variables are available across all flows in your workspace:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Accessible from any flow&lt;/li&gt;
@@ -794,7 +808,7 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;/ul&gt;
 &lt;!-- GLOBAL VARIABLES SCREENSHOT --&gt;
 &lt;!-- ![Global Variables](/images/global-variables.png) --&gt;
-&lt;h3&gt;Flow Variables&lt;span class=&#34;absolute -mt-20&#34; id=&#34;flow-variables&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Flow Variables&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;flow-variables&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#flow-variables&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Flow variables are specific to a single flow:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Defined within a flow&lt;/li&gt;
@@ -802,7 +816,7 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Not accessible from other flows&lt;/li&gt;
 &lt;li&gt;Reset with each flow execution&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Node Output Variables&lt;span class=&#34;absolute -mt-20&#34; id=&#34;node-output-variables&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Node Output Variables&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;node-output-variables&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#node-output-variables&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Each node in your flow produces output that can be used as variables:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Automatically available to downstream nodes&lt;/li&gt;
@@ -810,8 +824,8 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Contains all data produced by the node&lt;/li&gt;
 &lt;li&gt;Structured as objects with properties&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Working with Variables&lt;span class=&#34;absolute -mt-20&#34; id=&#34;working-with-variables&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#working-with-variables&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Accessing Variables&lt;span class=&#34;absolute -mt-20&#34; id=&#34;accessing-variables&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Working with Variables&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;working-with-variables&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#working-with-variables&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Accessing Variables&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;accessing-variables&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#accessing-variables&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;You can access variables in most node configuration fields using the following syntax:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Global Variables&lt;/strong&gt;: &lt;code&gt;{{ globals.variableName }}&lt;/code&gt;&lt;/li&gt;
@@ -820,7 +834,7 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;/ul&gt;
 &lt;!-- VARIABLE SYNTAX SCREENSHOT --&gt;
 &lt;!-- ![Variable Syntax](/images/variable-syntax.png) --&gt;
-&lt;h3&gt;Setting Variables&lt;span class=&#34;absolute -mt-20&#34; id=&#34;setting-variables&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Setting Variables&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;setting-variables&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#setting-variables&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;There are multiple ways to set variable values:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -848,38 +862,42 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Variable Scope and Lifecycle&lt;span class=&#34;absolute -mt-20&#34; id=&#34;variable-scope-and-lifecycle&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Variable Scope and Lifecycle&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;variable-scope-and-lifecycle&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#variable-scope-and-lifecycle&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Understanding variable scope is important:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Global Variables&lt;/strong&gt;: Persist across all flows and executions&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Flow Variables&lt;/strong&gt;: Exist only during a single flow execution&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Node Output Variables&lt;/strong&gt;: Available only to downstream nodes in the same execution&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Data Transformation&lt;span class=&#34;absolute -mt-20&#34; id=&#34;data-transformation&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Data Transformation&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;data-transformation&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#data-transformation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;AutoCRUD provides several ways to transform and manipulate data:&lt;/p&gt;
-&lt;h3&gt;Using Expressions&lt;span class=&#34;absolute -mt-20&#34; id=&#34;using-expressions&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Using Expressions&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;using-expressions&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#using-expressions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Use expressions to transform data:&lt;/p&gt;
-&lt;div class=&#34;code-block relative mt-6 first:mt-0 group/code&#34;&gt;&lt;pre&gt;&lt;code&gt;{{ nodes.inputNode.output.value * 2 }}&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0 transition group-hover/code:opacity-100 flex gap-1 absolute m-[11px] right-0 top-0&#34;&gt;
-    &lt;button
-      class=&#34;code-copy-btn group/copybtn transition-all active:opacity-50 bg-primary-700/5 border border-black/5 text-gray-600 hover:text-gray-900 rounded-md p-1.5 dark:bg-primary-300/10 dark:border-white/10 dark:text-gray-400 dark:hover:text-gray-50&#34;
-      title=&#34;Copy code&#34;
-    &gt;
-      &lt;div class=&#34;group-[.copied]/copybtn:hidden copy-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;hidden group-[.copied]/copybtn:block success-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-    &lt;/button&gt;
-  &lt;/div&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;{{ nodes.inputNode.output.value * 2 }}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
 &lt;/div&gt;
-&lt;div class=&#34;code-block relative mt-6 first:mt-0 group/code&#34;&gt;&lt;pre&gt;&lt;code&gt;{{ &amp;#34;Hello, &amp;#34; &amp;#43; nodes.nameInput.output.name }}&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0 transition group-hover/code:opacity-100 flex gap-1 absolute m-[11px] right-0 top-0&#34;&gt;
-    &lt;button
-      class=&#34;code-copy-btn group/copybtn transition-all active:opacity-50 bg-primary-700/5 border border-black/5 text-gray-600 hover:text-gray-900 rounded-md p-1.5 dark:bg-primary-300/10 dark:border-white/10 dark:text-gray-400 dark:hover:text-gray-50&#34;
-      title=&#34;Copy code&#34;
-    &gt;
-      &lt;div class=&#34;group-[.copied]/copybtn:hidden copy-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;hidden group-[.copied]/copybtn:block success-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-    &lt;/button&gt;
-  &lt;/div&gt;
 &lt;/div&gt;
-&lt;h3&gt;JSON Transformation Node&lt;span class=&#34;absolute -mt-20&#34; id=&#34;json-transformation-node&#34;&gt;&lt;/span&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;{{ &amp;#34;Hello, &amp;#34; &amp;#43; nodes.nameInput.output.name }}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;JSON Transformation Node&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;json-transformation-node&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#json-transformation-node&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;For complex data transformations:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Add a &amp;ldquo;Transform&amp;rdquo; node to your flow&lt;/li&gt;
@@ -888,31 +906,33 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;/ol&gt;
 &lt;!-- TRANSFORM NODE SCREENSHOT --&gt;
 &lt;!-- ![Transform Node](/images/transform-node.png) --&gt;
-&lt;h3&gt;Code Node&lt;span class=&#34;absolute -mt-20&#34; id=&#34;code-node&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Code Node&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;code-node&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#code-node&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;For advanced transformations:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Add a &amp;ldquo;Code&amp;rdquo; node to your flow&lt;/li&gt;
 &lt;li&gt;Write JavaScript/TypeScript code&lt;/li&gt;
 &lt;li&gt;Access input variables and produce output&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&#34;code-block relative mt-6 first:mt-0 group/code&#34;&gt;&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Example code in a Code node
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Example code in a Code node
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;input&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;$input&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;transformed&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;fullName&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;input&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;firstName&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;input&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;lastName&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;age&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;input&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;age&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;isAdult&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;input&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;age&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;18&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;transformed&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;opacity-0 transition group-hover/code:opacity-100 flex gap-1 absolute m-[11px] right-0 top-0&#34;&gt;
-    &lt;button
-      class=&#34;code-copy-btn group/copybtn transition-all active:opacity-50 bg-primary-700/5 border border-black/5 text-gray-600 hover:text-gray-900 rounded-md p-1.5 dark:bg-primary-300/10 dark:border-white/10 dark:text-gray-400 dark:hover:text-gray-50&#34;
-      title=&#34;Copy code&#34;
-    &gt;
-      &lt;div class=&#34;group-[.copied]/copybtn:hidden copy-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;hidden group-[.copied]/copybtn:block success-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-    &lt;/button&gt;
-  &lt;/div&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;transformed&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
 &lt;/div&gt;
-&lt;h2&gt;Data Types&lt;span class=&#34;absolute -mt-20&#34; id=&#34;data-types&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;h2&gt;Data Types&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;data-types&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#data-types&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;AutoCRUD workflows support various data types:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Strings&lt;/strong&gt;: Text values&lt;/li&gt;
@@ -924,9 +944,9 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;&lt;strong&gt;Null&lt;/strong&gt;: Empty/no value&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Each data type has specific operations and functionality available.&lt;/p&gt;
-&lt;h2&gt;Working with Arrays&lt;span class=&#34;absolute -mt-20&#34; id=&#34;working-with-arrays&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Working with Arrays&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;working-with-arrays&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#working-with-arrays&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Arrays (lists) are commonly used in workflows:&lt;/p&gt;
-&lt;h3&gt;Iterating Over Arrays&lt;span class=&#34;absolute -mt-20&#34; id=&#34;iterating-over-arrays&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Iterating Over Arrays&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;iterating-over-arrays&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#iterating-over-arrays&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Process each item in an array:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Add a &amp;ldquo;Loop&amp;rdquo; node to your flow&lt;/li&gt;
@@ -935,7 +955,7 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;/ol&gt;
 &lt;!-- LOOP NODE SCREENSHOT --&gt;
 &lt;!-- ![Loop Node](/images/loop-node.png) --&gt;
-&lt;h3&gt;Array Operations&lt;span class=&#34;absolute -mt-20&#34; id=&#34;array-operations&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Array Operations&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;array-operations&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#array-operations&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Perform common array operations:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Map&lt;/strong&gt;: Transform each item in an array&lt;/li&gt;
@@ -943,37 +963,41 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;&lt;strong&gt;Reduce&lt;/strong&gt;: Combine array items into a single value&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Find&lt;/strong&gt;: Locate specific items in an array&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Working with Objects&lt;span class=&#34;absolute -mt-20&#34; id=&#34;working-with-objects&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Working with Objects&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;working-with-objects&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#working-with-objects&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Objects (key-value pairs) help organize complex data:&lt;/p&gt;
-&lt;h3&gt;Accessing Object Properties&lt;span class=&#34;absolute -mt-20&#34; id=&#34;accessing-object-properties&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Accessing Object Properties&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;accessing-object-properties&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#accessing-object-properties&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Access properties using dot notation:&lt;/p&gt;
-&lt;div class=&#34;code-block relative mt-6 first:mt-0 group/code&#34;&gt;&lt;pre&gt;&lt;code&gt;{{ nodes.userData.output.user.address.city }}&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0 transition group-hover/code:opacity-100 flex gap-1 absolute m-[11px] right-0 top-0&#34;&gt;
-    &lt;button
-      class=&#34;code-copy-btn group/copybtn transition-all active:opacity-50 bg-primary-700/5 border border-black/5 text-gray-600 hover:text-gray-900 rounded-md p-1.5 dark:bg-primary-300/10 dark:border-white/10 dark:text-gray-400 dark:hover:text-gray-50&#34;
-      title=&#34;Copy code&#34;
-    &gt;
-      &lt;div class=&#34;group-[.copied]/copybtn:hidden copy-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;hidden group-[.copied]/copybtn:block success-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-    &lt;/button&gt;
-  &lt;/div&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;{{ nodes.userData.output.user.address.city }}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
 &lt;/div&gt;
-&lt;h3&gt;Creating and Modifying Objects&lt;span class=&#34;absolute -mt-20&#34; id=&#34;creating-and-modifying-objects&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;h3&gt;Creating and Modifying Objects&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;creating-and-modifying-objects&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#creating-and-modifying-objects&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Create or modify objects using expressions:&lt;/p&gt;
-&lt;div class=&#34;code-block relative mt-6 first:mt-0 group/code&#34;&gt;&lt;pre&gt;&lt;code&gt;{
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;{
   &amp;#34;name&amp;#34;: {{ nodes.inputNode.output.name }},
   &amp;#34;email&amp;#34;: {{ nodes.inputNode.output.email }},
   &amp;#34;createdAt&amp;#34;: {{ &amp;#34;now&amp;#34; | date }}
-}&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0 transition group-hover/code:opacity-100 flex gap-1 absolute m-[11px] right-0 top-0&#34;&gt;
-    &lt;button
-      class=&#34;code-copy-btn group/copybtn transition-all active:opacity-50 bg-primary-700/5 border border-black/5 text-gray-600 hover:text-gray-900 rounded-md p-1.5 dark:bg-primary-300/10 dark:border-white/10 dark:text-gray-400 dark:hover:text-gray-50&#34;
-      title=&#34;Copy code&#34;
-    &gt;
-      &lt;div class=&#34;group-[.copied]/copybtn:hidden copy-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;hidden group-[.copied]/copybtn:block success-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-    &lt;/button&gt;
-  &lt;/div&gt;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
 &lt;/div&gt;
-&lt;h2&gt;Best Practices&lt;span class=&#34;absolute -mt-20&#34; id=&#34;best-practices&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;h2&gt;Best Practices&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;best-practices&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#best-practices&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Follow these best practices for effective variable usage:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Descriptive Names&lt;/strong&gt;: Use clear, descriptive variable names&lt;/li&gt;
@@ -984,8 +1008,8 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;&lt;strong&gt;Security&lt;/strong&gt;: Don&amp;rsquo;t store sensitive data in plaintext variables&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Organization&lt;/strong&gt;: Group related variables logically&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Common Variable Patterns&lt;span class=&#34;absolute -mt-20&#34; id=&#34;common-variable-patterns&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#common-variable-patterns&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Configuration Variables&lt;span class=&#34;absolute -mt-20&#34; id=&#34;configuration-variables&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Common Variable Patterns&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;common-variable-patterns&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#common-variable-patterns&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Configuration Variables&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;configuration-variables&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#configuration-variables&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Store configuration in global variables:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;API endpoints&lt;/li&gt;
@@ -993,23 +1017,23 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Feature flags&lt;/li&gt;
 &lt;li&gt;Environment-specific settings&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Data Passing&lt;span class=&#34;absolute -mt-20&#34; id=&#34;data-passing&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Data Passing&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;data-passing&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#data-passing&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Pass data between different parts of your flow:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Store intermediate results&lt;/li&gt;
 &lt;li&gt;Pass user inputs through multiple steps&lt;/li&gt;
 &lt;li&gt;Accumulate results across iterations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Conditional Logic&lt;span class=&#34;absolute -mt-20&#34; id=&#34;conditional-logic&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Conditional Logic&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;conditional-logic&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#conditional-logic&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Use variables for dynamic behavior:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Change flow behavior based on variable values&lt;/li&gt;
 &lt;li&gt;Implement different paths based on data&lt;/li&gt;
 &lt;li&gt;Toggle features on/off&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Troubleshooting Variables&lt;span class=&#34;absolute -mt-20&#34; id=&#34;troubleshooting-variables&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Troubleshooting Variables&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;troubleshooting-variables&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#troubleshooting-variables&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Common issues and solutions:&lt;/p&gt;
-&lt;h3&gt;Variable Not Found&lt;span class=&#34;absolute -mt-20&#34; id=&#34;variable-not-found&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Variable Not Found&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;variable-not-found&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#variable-not-found&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;If a variable isn&amp;rsquo;t available:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Check the variable name and syntax&lt;/li&gt;
@@ -1017,14 +1041,14 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Check for typos in the variable reference&lt;/li&gt;
 &lt;li&gt;Ensure the variable is within scope&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Incorrect Data Type&lt;span class=&#34;absolute -mt-20&#34; id=&#34;incorrect-data-type&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Incorrect Data Type&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;incorrect-data-type&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#incorrect-data-type&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;If a variable has the wrong data type:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Use transformation nodes to convert the type&lt;/li&gt;
 &lt;li&gt;Add explicit type conversion in expressions&lt;/li&gt;
 &lt;li&gt;Validate data earlier in the flow&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Variable Value Unexpected&lt;span class=&#34;absolute -mt-20&#34; id=&#34;variable-value-unexpected&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Variable Value Unexpected&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;variable-value-unexpected&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#variable-value-unexpected&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;If a variable doesn&amp;rsquo;t contain expected data:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Add a &amp;ldquo;Debug&amp;rdquo; node to inspect the variable value&lt;/li&gt;
@@ -1045,7 +1069,7 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
         
         
         &lt;h1&gt;Integrating Tables with Flows&lt;/h1&gt;&lt;p&gt;One of the most powerful features of AutoCRUD is the ability to connect your tables with automated workflows. This guide shows you how to use flows to automate operations on your tables, creating powerful data-driven applications.&lt;/p&gt;
-&lt;h2&gt;Understanding Table Automation&lt;span class=&#34;absolute -mt-20&#34; id=&#34;understanding-table-automation&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Understanding Table Automation&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;understanding-table-automation&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#understanding-table-automation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;By connecting tables with flows, you can:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Trigger workflows when table data changes&lt;/li&gt;
@@ -1056,8 +1080,8 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;/ul&gt;
 &lt;!-- TABLE AUTOMATION OVERVIEW --&gt;
 &lt;!-- ![Table Automation Overview](/images/table-automation-overview.png) --&gt;
-&lt;h2&gt;Table-Related Flow Triggers&lt;span class=&#34;absolute -mt-20&#34; id=&#34;table-related-flow-triggers&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#table-related-flow-triggers&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Record Created Trigger&lt;span class=&#34;absolute -mt-20&#34; id=&#34;record-created-trigger&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Table-Related Flow Triggers&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;table-related-flow-triggers&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#table-related-flow-triggers&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Record Created Trigger&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;record-created-trigger&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#record-created-trigger&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Start a flow when a new record is created in a table:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Create a new flow&lt;/li&gt;
@@ -1067,7 +1091,7 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;The flow will run each time a new record is created&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;Use cases&lt;/strong&gt;: Send welcome emails, create related records, initiate approval processes&lt;/p&gt;
-&lt;h3&gt;Record Updated Trigger&lt;span class=&#34;absolute -mt-20&#34; id=&#34;record-updated-trigger&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Record Updated Trigger&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;record-updated-trigger&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#record-updated-trigger&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Trigger a flow when a record in a table is modified:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Create a new flow&lt;/li&gt;
@@ -1077,7 +1101,7 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Configure any additional filters&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;Use cases&lt;/strong&gt;: Notification systems, status updates, audit logging, data synchronization&lt;/p&gt;
-&lt;h3&gt;Record Deleted Trigger&lt;span class=&#34;absolute -mt-20&#34; id=&#34;record-deleted-trigger&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Record Deleted Trigger&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;record-deleted-trigger&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#record-deleted-trigger&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Run a flow when a record is deleted from a table:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Create a new flow&lt;/li&gt;
@@ -1086,7 +1110,7 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Configure any additional options&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;Use cases&lt;/strong&gt;: Cleanup related records, archive data, send notifications&lt;/p&gt;
-&lt;h3&gt;View Button Trigger&lt;span class=&#34;absolute -mt-20&#34; id=&#34;view-button-trigger&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;View Button Trigger&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;view-button-trigger&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#view-button-trigger&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Add a custom button to a table view that triggers a flow:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Create a new flow&lt;/li&gt;
@@ -1098,9 +1122,9 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;p&gt;&lt;strong&gt;Use cases&lt;/strong&gt;: Bulk operations, custom actions, process initiation&lt;/p&gt;
 &lt;!-- VIEW BUTTON TRIGGER SCREENSHOT --&gt;
 &lt;!-- ![View Button Trigger](/images/view-button-trigger.png) --&gt;
-&lt;h2&gt;Table Operation Nodes&lt;span class=&#34;absolute -mt-20&#34; id=&#34;table-operation-nodes&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Table Operation Nodes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;table-operation-nodes&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#table-operation-nodes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;AutoCRUD provides several nodes for interacting with tables in your flows:&lt;/p&gt;
-&lt;h3&gt;Create Record Node&lt;span class=&#34;absolute -mt-20&#34; id=&#34;create-record-node&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Create Record Node&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;create-record-node&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#create-record-node&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Add new records to a table:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Add a &amp;ldquo;Create Record&amp;rdquo; node to your flow&lt;/li&gt;
@@ -1109,21 +1133,23 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Configure additional options (error handling, etc.)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;: Creating a customer record after a form submission&lt;/p&gt;
-&lt;div class=&#34;code-block relative mt-6 first:mt-0 group/code&#34;&gt;&lt;pre&gt;&lt;code&gt;{
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;{
   &amp;#34;name&amp;#34;: &amp;#34;{{trigger.data.name}}&amp;#34;,
   &amp;#34;email&amp;#34;: &amp;#34;{{trigger.data.email}}&amp;#34;,
   &amp;#34;createdAt&amp;#34;: &amp;#34;{{now()}}&amp;#34;
-}&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0 transition group-hover/code:opacity-100 flex gap-1 absolute m-[11px] right-0 top-0&#34;&gt;
-    &lt;button
-      class=&#34;code-copy-btn group/copybtn transition-all active:opacity-50 bg-primary-700/5 border border-black/5 text-gray-600 hover:text-gray-900 rounded-md p-1.5 dark:bg-primary-300/10 dark:border-white/10 dark:text-gray-400 dark:hover:text-gray-50&#34;
-      title=&#34;Copy code&#34;
-    &gt;
-      &lt;div class=&#34;group-[.copied]/copybtn:hidden copy-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;hidden group-[.copied]/copybtn:block success-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-    &lt;/button&gt;
-  &lt;/div&gt;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
 &lt;/div&gt;
-&lt;h3&gt;Find Records Node&lt;span class=&#34;absolute -mt-20&#34; id=&#34;find-records-node&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;h3&gt;Find Records Node&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;find-records-node&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#find-records-node&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Query tables to find specific records:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Add a &amp;ldquo;Find Records&amp;rdquo; node to your flow&lt;/li&gt;
@@ -1132,24 +1158,26 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Specify sorting and limits if needed&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;: Finding all overdue tasks&lt;/p&gt;
-&lt;div class=&#34;code-block relative mt-6 first:mt-0 group/code&#34;&gt;&lt;pre&gt;&lt;code&gt;{
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;{
   &amp;#34;where&amp;#34;: {
     &amp;#34;dueDate&amp;#34;: { &amp;#34;lt&amp;#34;: &amp;#34;{{now()}}&amp;#34; },
     &amp;#34;status&amp;#34;: { &amp;#34;ne&amp;#34;: &amp;#34;Completed&amp;#34; }
   },
   &amp;#34;limit&amp;#34;: 100,
   &amp;#34;sort&amp;#34;: [{ &amp;#34;field&amp;#34;: &amp;#34;dueDate&amp;#34;, &amp;#34;direction&amp;#34;: &amp;#34;asc&amp;#34; }]
-}&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0 transition group-hover/code:opacity-100 flex gap-1 absolute m-[11px] right-0 top-0&#34;&gt;
-    &lt;button
-      class=&#34;code-copy-btn group/copybtn transition-all active:opacity-50 bg-primary-700/5 border border-black/5 text-gray-600 hover:text-gray-900 rounded-md p-1.5 dark:bg-primary-300/10 dark:border-white/10 dark:text-gray-400 dark:hover:text-gray-50&#34;
-      title=&#34;Copy code&#34;
-    &gt;
-      &lt;div class=&#34;group-[.copied]/copybtn:hidden copy-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;hidden group-[.copied]/copybtn:block success-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-    &lt;/button&gt;
-  &lt;/div&gt;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
 &lt;/div&gt;
-&lt;h3&gt;Update Record Node&lt;span class=&#34;absolute -mt-20&#34; id=&#34;update-record-node&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;h3&gt;Update Record Node&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;update-record-node&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#update-record-node&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Modify existing records in a table:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Add an &amp;ldquo;Update Record&amp;rdquo; node to your flow&lt;/li&gt;
@@ -1158,23 +1186,25 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Define the fields and values to update&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;: Marking a task as completed&lt;/p&gt;
-&lt;div class=&#34;code-block relative mt-6 first:mt-0 group/code&#34;&gt;&lt;pre&gt;&lt;code&gt;{
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;{
   &amp;#34;where&amp;#34;: { &amp;#34;id&amp;#34;: &amp;#34;{{trigger.data.recordId}}&amp;#34; },
   &amp;#34;update&amp;#34;: {
     &amp;#34;status&amp;#34;: &amp;#34;Completed&amp;#34;,
     &amp;#34;completedAt&amp;#34;: &amp;#34;{{now()}}&amp;#34;
   }
-}&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0 transition group-hover/code:opacity-100 flex gap-1 absolute m-[11px] right-0 top-0&#34;&gt;
-    &lt;button
-      class=&#34;code-copy-btn group/copybtn transition-all active:opacity-50 bg-primary-700/5 border border-black/5 text-gray-600 hover:text-gray-900 rounded-md p-1.5 dark:bg-primary-300/10 dark:border-white/10 dark:text-gray-400 dark:hover:text-gray-50&#34;
-      title=&#34;Copy code&#34;
-    &gt;
-      &lt;div class=&#34;group-[.copied]/copybtn:hidden copy-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;hidden group-[.copied]/copybtn:block success-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-    &lt;/button&gt;
-  &lt;/div&gt;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
 &lt;/div&gt;
-&lt;h3&gt;Delete Record Node&lt;span class=&#34;absolute -mt-20&#34; id=&#34;delete-record-node&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;h3&gt;Delete Record Node&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;delete-record-node&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#delete-record-node&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Remove records from a table:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Add a &amp;ldquo;Delete Record&amp;rdquo; node to your flow&lt;/li&gt;
@@ -1183,23 +1213,25 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Configure confirmation and safety options&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;: Deleting old archive records&lt;/p&gt;
-&lt;div class=&#34;code-block relative mt-6 first:mt-0 group/code&#34;&gt;&lt;pre&gt;&lt;code&gt;{
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;{
   &amp;#34;where&amp;#34;: {
     &amp;#34;createdAt&amp;#34;: { &amp;#34;lt&amp;#34;: &amp;#34;{{addDays(now(), -365)}}&amp;#34; },
     &amp;#34;status&amp;#34;: &amp;#34;Archived&amp;#34;
   }
-}&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0 transition group-hover/code:opacity-100 flex gap-1 absolute m-[11px] right-0 top-0&#34;&gt;
-    &lt;button
-      class=&#34;code-copy-btn group/copybtn transition-all active:opacity-50 bg-primary-700/5 border border-black/5 text-gray-600 hover:text-gray-900 rounded-md p-1.5 dark:bg-primary-300/10 dark:border-white/10 dark:text-gray-400 dark:hover:text-gray-50&#34;
-      title=&#34;Copy code&#34;
-    &gt;
-      &lt;div class=&#34;group-[.copied]/copybtn:hidden copy-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;hidden group-[.copied]/copybtn:block success-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
-    &lt;/button&gt;
-  &lt;/div&gt;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
 &lt;/div&gt;
-&lt;h2&gt;Common Automation Scenarios&lt;span class=&#34;absolute -mt-20&#34; id=&#34;common-automation-scenarios&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#common-automation-scenarios&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Data Enrichment&lt;span class=&#34;absolute -mt-20&#34; id=&#34;data-enrichment&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;h2&gt;Common Automation Scenarios&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;common-automation-scenarios&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#common-automation-scenarios&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Data Enrichment&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;data-enrichment&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#data-enrichment&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Automatically enhance records with additional data:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Trigger on record creation/update&lt;/li&gt;
@@ -1207,7 +1239,7 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Update the record with the enriched information&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;: Adding company information to a contact record by looking up their email domain&lt;/p&gt;
-&lt;h3&gt;Approval Workflows&lt;span class=&#34;absolute -mt-20&#34; id=&#34;approval-workflows&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Approval Workflows&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;approval-workflows&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#approval-workflows&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Create multi-step approval processes:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Trigger when a record status changes to &amp;ldquo;Pending Approval&amp;rdquo;&lt;/li&gt;
@@ -1215,7 +1247,7 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Create approval tasks or records&lt;/li&gt;
 &lt;li&gt;Update the original record based on approval decisions&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Data Synchronization&lt;span class=&#34;absolute -mt-20&#34; id=&#34;data-synchronization&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Data Synchronization&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;data-synchronization&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#data-synchronization&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Keep multiple tables or systems in sync:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Trigger when records change&lt;/li&gt;
@@ -1223,7 +1255,7 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Update corresponding records in other tables or external systems&lt;/li&gt;
 &lt;li&gt;Log synchronization activities&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Notifications and Alerts&lt;span class=&#34;absolute -mt-20&#34; id=&#34;notifications-and-alerts&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Notifications and Alerts&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;notifications-and-alerts&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#notifications-and-alerts&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Send alerts based on table conditions:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Trigger on record updates&lt;/li&gt;
@@ -1233,8 +1265,8 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;/ol&gt;
 &lt;!-- NOTIFICATION WORKFLOW SCREENSHOT --&gt;
 &lt;!-- ![Notification Workflow](/images/notification-workflow.png) --&gt;
-&lt;h2&gt;Advanced Table Automation Techniques&lt;span class=&#34;absolute -mt-20&#34; id=&#34;advanced-table-automation-techniques&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#advanced-table-automation-techniques&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Batch Processing&lt;span class=&#34;absolute -mt-20&#34; id=&#34;batch-processing&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Advanced Table Automation Techniques&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;advanced-table-automation-techniques&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#advanced-table-automation-techniques&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Batch Processing&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;batch-processing&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#batch-processing&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Process multiple records in a single flow run:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Use a scheduled trigger or manual button&lt;/li&gt;
@@ -1243,7 +1275,7 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Process each record with your business logic&lt;/li&gt;
 &lt;li&gt;Update processing status&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Conditional Record Creation&lt;span class=&#34;absolute -mt-20&#34; id=&#34;conditional-record-creation&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Conditional Record Creation&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;conditional-record-creation&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#conditional-record-creation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Create records based on complex conditions:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Trigger on an event&lt;/li&gt;
@@ -1251,7 +1283,7 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Create different record types based on conditions&lt;/li&gt;
 &lt;li&gt;Link the new records appropriately&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Cascading Updates&lt;span class=&#34;absolute -mt-20&#34; id=&#34;cascading-updates&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Cascading Updates&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;cascading-updates&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#cascading-updates&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Update related records automatically:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Trigger when a parent record changes&lt;/li&gt;
@@ -1259,7 +1291,7 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Update the child records based on parent changes&lt;/li&gt;
 &lt;li&gt;Optionally trigger further workflows&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Form to Table Automation&lt;span class=&#34;absolute -mt-20&#34; id=&#34;form-to-table-automation&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Form to Table Automation&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;form-to-table-automation&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#form-to-table-automation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Create complete data collection workflows:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Design a form view for data entry&lt;/li&gt;
@@ -1268,8 +1300,8 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Create records in multiple related tables&lt;/li&gt;
 &lt;li&gt;Send confirmation notifications&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;Best Practices&lt;span class=&#34;absolute -mt-20&#34; id=&#34;best-practices&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#best-practices&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Performance Considerations&lt;span class=&#34;absolute -mt-20&#34; id=&#34;performance-considerations&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Best Practices&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;best-practices&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#best-practices&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Performance Considerations&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;performance-considerations&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#performance-considerations&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Limit the frequency of triggers for high-volume tables&lt;/li&gt;
 &lt;li&gt;Use indexing for fields used in filtering&lt;/li&gt;
@@ -1277,14 +1309,14 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Implement error handling and retry logic&lt;/li&gt;
 &lt;li&gt;Monitor flow execution times&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Data Integrity&lt;span class=&#34;absolute -mt-20&#34; id=&#34;data-integrity&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Data Integrity&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;data-integrity&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#data-integrity&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Validate data before creating or updating records&lt;/li&gt;
 &lt;li&gt;Implement transaction-like patterns for multi-table updates&lt;/li&gt;
 &lt;li&gt;Create audit trails for important changes&lt;/li&gt;
 &lt;li&gt;Use rollback mechanisms for failed operations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Maintenance and Monitoring&lt;span class=&#34;absolute -mt-20&#34; id=&#34;maintenance-and-monitoring&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Maintenance and Monitoring&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;maintenance-and-monitoring&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#maintenance-and-monitoring&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Document your automations&lt;/li&gt;
 &lt;li&gt;Set up monitoring for failed flows&lt;/li&gt;
@@ -1292,8 +1324,8 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Test flows thoroughly before deployment&lt;/li&gt;
 &lt;li&gt;Use descriptive naming for flows and nodes&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Troubleshooting&lt;span class=&#34;absolute -mt-20&#34; id=&#34;troubleshooting&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#troubleshooting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Common Issues&lt;span class=&#34;absolute -mt-20&#34; id=&#34;common-issues&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Troubleshooting&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;troubleshooting&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#troubleshooting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Common Issues&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;common-issues&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#common-issues&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Issue&lt;/strong&gt;: Flow not triggering on record changes
 &lt;strong&gt;Solution&lt;/strong&gt;: Check trigger configuration and ensure it matches the expected changes&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Issue&lt;/strong&gt;: Record updates not working
@@ -1302,7 +1334,7 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;strong&gt;Solution&lt;/strong&gt;: Optimize database queries, reduce complexity, batch operations&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Issue&lt;/strong&gt;: Circular update issues
 &lt;strong&gt;Solution&lt;/strong&gt;: Implement guards against recursive triggering&lt;/p&gt;
-&lt;h2&gt;Next Steps&lt;span class=&#34;absolute -mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
+&lt;h2&gt;Next Steps&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#next-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Now that you know how to integrate tables with flows, explore:&lt;/p&gt;
 
       </description>
