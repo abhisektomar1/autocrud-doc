@@ -46,13 +46,22 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Cache Hugo modules
+        uses: actions/cache@v3
+        with:
+          path: /tmp/hugo_cache
+          key: ${{ runner.os }}-hugo-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugo-
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      - name: Initialize Hugo modules
-        run: hugo mod get -u
+      - name: Initialize and tidy Hugo modules
+        run: |
+          hugo mod tidy
+          hugo mod get -u
       - name: Build with Hugo
         env:
-          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+          HUGO_CACHEDIR: /tmp/hugo_cache
           HUGO_ENVIRONMENT: production
         run: |
           hugo \

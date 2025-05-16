@@ -55,40 +55,49 @@
 
 document.addEventListener('DOMContentLoaded', function () {
   const menu = document.querySelector('.hamburger-menu');
+  const overlay = document.querySelector('.mobile-menu-overlay');
   const sidebarContainer = document.querySelector('.sidebar-container');
+
+  // Initialize the overlay
+  const overlayClasses = ['fixed', 'inset-0', 'z-10', 'bg-black/80', 'dark:bg-black/60'];
+  overlay.classList.add('bg-transparent');
+  overlay.classList.remove("hidden", ...overlayClasses);
 
   function toggleMenu() {
     // Toggle the hamburger menu
     menu.querySelector('svg').classList.toggle('open');
 
     // When the menu is open, we want to show the navigation sidebar
-    sidebarContainer.classList.toggle('hx:max-md:[transform:translate3d(0,-100%,0)]');
-    sidebarContainer.classList.toggle('hx:max-md:[transform:translate3d(0,0,0)]');
+    sidebarContainer.classList.toggle('max-md:[transform:translate3d(0,-100%,0)]');
+    sidebarContainer.classList.toggle('max-md:[transform:translate3d(0,0,0)]');
 
     // When the menu is open, we want to prevent the body from scrolling
-    document.body.classList.toggle('hx:overflow-hidden');
-    document.body.classList.toggle('hx:md:overflow-auto');
+    document.body.classList.toggle('overflow-hidden');
+    document.body.classList.toggle('md:overflow-auto');
   }
 
   menu.addEventListener('click', (e) => {
     e.preventDefault();
     toggleMenu();
+
+    if (overlay.classList.contains('bg-transparent')) {
+      // Show the overlay
+      overlay.classList.add(...overlayClasses);
+      overlay.classList.remove('bg-transparent');
+    } else {
+      // Hide the overlay
+      overlay.classList.remove(...overlayClasses);
+      overlay.classList.add('bg-transparent');
+    }
   });
 
-  // Select all anchor tags in the sidebar container
-  const sidebarLinks = sidebarContainer.querySelectorAll('a');
+  overlay.addEventListener('click', (e) => {
+    e.preventDefault();
+    toggleMenu();
 
-  // Add click event listener to each anchor tag
-  sidebarLinks.forEach(link => {
-    link.addEventListener('click', (e) => {
-      // Check if the href attribute contains a hash symbol (links to a heading)
-      if (link.getAttribute('href') && link.getAttribute('href').startsWith('#')) {
-        // Only dismiss overlay on mobile view
-        if (window.innerWidth < 768) {
-          toggleMenu();
-        }
-      }
-    });
+    // Hide the overlay
+    overlay.classList.remove(...overlayClasses);
+    overlay.classList.add('bg-transparent');
   });
 });
 
@@ -120,7 +129,7 @@ document.addEventListener('DOMContentLoaded', function () {
     return svg;
   }
 
-  document.querySelectorAll('.hextra-code-copy-btn').forEach(function (button) {
+  document.querySelectorAll('.code-copy-btn').forEach(function (button) {
     // Add copy and success icons
     button.querySelector('.copy-icon')?.appendChild(getCopyIcon());
     button.querySelector('.success-icon')?.appendChild(getSuccessIcon());
@@ -161,17 +170,17 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 ;
-document.querySelectorAll('.hextra-tabs-toggle').forEach(function (button) {
+document.querySelectorAll('.tabs-toggle').forEach(function (button) {
   button.addEventListener('click', function (e) {
     // set parent tabs to unselected
-    const tabs = Array.from(e.target.parentElement.querySelectorAll('.hextra-tabs-toggle'));
+    const tabs = Array.from(e.target.parentElement.querySelectorAll('.tabs-toggle'));
     tabs.map(tab => tab.dataset.state = '');
 
     // set current tab to selected
     e.target.dataset.state = 'selected';
 
     // set all panels to unselected
-    const panelsContainer = e.target.parentElement.parentElement.nextElementSibling;
+    const panelsContainer = e.target.parentElement.nextElementSibling;
     Array.from(panelsContainer.children).forEach(function (panel) {
       panel.dataset.state = '';
     });
@@ -190,7 +199,7 @@ document.querySelectorAll('.hextra-tabs-toggle').forEach(function (button) {
       e.preventDefault();
       switcher.dataset.state = switcher.dataset.state === 'open' ? 'closed' : 'open';
       const optionsElement = switcher.nextElementSibling;
-      optionsElement.classList.toggle('hx:hidden');
+      optionsElement.classList.toggle('hidden');
 
       // Calculate position of language options element
       const switcherRect = switcher.getBoundingClientRect();
@@ -206,7 +215,7 @@ document.querySelectorAll('.hextra-tabs-toggle').forEach(function (button) {
       languageSwitchers.forEach((switcher) => {
         switcher.dataset.state = 'closed';
         const optionsElement = switcher.nextElementSibling;
-        optionsElement.classList.add('hx:hidden');
+        optionsElement.classList.add('hidden');
       });
     }
   });
@@ -229,11 +238,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 ;
 document.addEventListener("DOMContentLoaded", function () {
-  scrollToActiveItem();
-  enableCollapsibles();
-});
-
-function enableCollapsibles() {
   const buttons = document.querySelectorAll(".hextra-sidebar-collapsible-button");
   buttons.forEach(function (button) {
     button.addEventListener("click", function (e) {
@@ -244,26 +248,7 @@ function enableCollapsibles() {
       }
     });
   });
-}
-
-function scrollToActiveItem() {
-  const sidebarScrollbar = document.querySelector("aside.sidebar-container > .hextra-scrollbar");
-  const activeItems = document.querySelectorAll(".sidebar-active-item");
-  const visibleActiveItem = Array.from(activeItems).find(function (activeItem) {
-    return activeItem.getBoundingClientRect().height > 0;
-  });
-
-  if (!visibleActiveItem) {
-    return;
-  }
-
-  const yOffset = visibleActiveItem.clientHeight;
-  const yDistance = visibleActiveItem.getBoundingClientRect().top - sidebarScrollbar.getBoundingClientRect().top;
-  sidebarScrollbar.scrollTo({
-    behavior: "instant",
-    top: yDistance - yOffset
-  });
-}
+});
 
 ;
 // Back to top button
@@ -273,9 +258,9 @@ document.addEventListener("DOMContentLoaded", function () {
   if (backToTop) {
     document.addEventListener("scroll", (e) => {
       if (window.scrollY > 300) {
-        backToTop.classList.remove("hx:opacity-0");
+        backToTop.classList.remove("opacity-0");
       } else {
-        backToTop.classList.add("hx:opacity-0");
+        backToTop.classList.add("opacity-0");
       }
     });
   }

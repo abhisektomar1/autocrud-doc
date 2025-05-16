@@ -1,18 +1,21 @@
 baseURL: https://abhisektomar1.github.io/autocrud-doc/
 languageCode: en-us
 title: AutoCRUD
-theme: hextra
 
-# Theme-specific configuration
-params:
-  description: Documentation and guides for AutoCRUD
-  navbar:
-    logo:
-      path: /images/WordpressTransparent.png
-      alt: AutoCRUD Logo
+module:
+  hugoVersion:
+    extended: true
+    min: "0.110.0"
+  imports:
+    - path: github.com/imfing/hextra
 
-  sidebar:
-    enabled: true
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+  highlight:
+    noClasses: false
 
 menu:
   main:
@@ -35,15 +38,12 @@ menu:
       params:
         icon: github
 
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
+params:
+  description: Documentation and guides for AutoCRUD
+  navbar:
+    logo:
+      path: /images/WordpressTransparent.png
+      alt: AutoCRUD Logo
 
-module:
-  hugoVersion:
-    extended: true
-
-imports:
-  - path: github.com/imfing/hextra
-    disable: false
+  sidebar:
+    enabled: true
