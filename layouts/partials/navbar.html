@@ -1,0 +1,17 @@
+{{ $logoPath := "" }} {{ with .Site.Params.navbar.logo }} {{ $logoPath = .path
+}} {{ end }} {{ if $logoPath }} {{ $logoTitle := .Site.Params.navbar.logo.alt |
+default .Site.Title }} {{ $logoWidth := .Site.Params.navbar.logo.width | default
+"auto" }} {{ $logoHeight := .Site.Params.navbar.logo.height | default "32" }}
+<a
+  href="{{ .Site.BaseURL | relLangURL }}"
+  class="hx:flex hx:items-center hx:mr-5"
+>
+  <img
+    class="hx:block"
+    src="{{ $logoPath | relURL }}"
+    alt="{{ $logoTitle }}"
+    height="{{ $logoHeight }}"
+    width="{{ $logoWidth }}"
+  />
+</a>
+{{ end }}
