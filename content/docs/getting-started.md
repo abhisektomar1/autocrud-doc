@@ -4,7 +4,6 @@ description: Learn the basics of AutoCRUD
 weight: 2
 ---
 
-{{< callout emoji="🌐" >}}
 Version: Latest
 {{< /callout >}}
 
