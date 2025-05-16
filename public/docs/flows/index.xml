@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AutoCRUD – Flows</title>
-    <link>http://localhost:1313/docs/flows/</link>
+    <link>http://localhost:1313/autocrud-doc/docs/flows/</link>
     <description>Recent content in Flows on AutoCRUD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	  <atom:link href="http://localhost:1313/docs/flows/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/autocrud-doc/docs/flows/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>Creating Flows</title>
-      <link>http://localhost:1313/docs/flows/creating-flows/</link>
+      <link>http://localhost:1313/autocrud-doc/docs/flows/creating-flows/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/flows/creating-flows/</guid>
+      <guid>http://localhost:1313/autocrud-doc/docs/flows/creating-flows/</guid>
       <description>
         
         
@@ -107,9 +107,9 @@
     &lt;a href=&#34;#next-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Now that you&amp;rsquo;ve created your first flow, you can:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Explore more complex workflows with multiple nodes&lt;/li&gt;
-&lt;li&gt;Learn about &lt;a href=&#34;http://localhost:1313/docs/flows/triggers/&#34; &gt;Advanced Triggers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Discover all available &lt;a href=&#34;http://localhost:1313/docs/flows/nodes/&#34; &gt;Node Types&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Implement &lt;a href=&#34;http://localhost:1313/docs/flows/error-handling/&#34; &gt;Error Handling&lt;/a&gt; in your flows&lt;/li&gt;
+&lt;li&gt;Learn about &lt;a href=&#34;http://localhost:1313/autocrud-doc/docs/flows/triggers/&#34; &gt;Advanced Triggers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Discover all available &lt;a href=&#34;http://localhost:1313/autocrud-doc/docs/flows/nodes/&#34; &gt;Node Types&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Implement &lt;a href=&#34;http://localhost:1313/autocrud-doc/docs/flows/error-handling/&#34; &gt;Error Handling&lt;/a&gt; in your flows&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -117,10 +117,10 @@
     
     <item>
       <title>Triggers</title>
-      <link>http://localhost:1313/docs/flows/triggers/</link>
+      <link>http://localhost:1313/autocrud-doc/docs/flows/triggers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/flows/triggers/</guid>
+      <guid>http://localhost:1313/autocrud-doc/docs/flows/triggers/</guid>
       <description>
         
         
@@ -257,10 +257,10 @@ Input Parameters: File Path&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#
     
     <item>
       <title>Node Types</title>
-      <link>http://localhost:1313/docs/flows/nodes/</link>
+      <link>http://localhost:1313/autocrud-doc/docs/flows/nodes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/flows/nodes/</guid>
+      <guid>http://localhost:1313/autocrud-doc/docs/flows/nodes/</guid>
       <description>
         
         
@@ -441,17 +441,17 @@ Input Parameters: File Path&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#
 &lt;li&gt;&lt;strong&gt;Handle Errors&lt;/strong&gt;: Include error handling for critical nodes&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Next Steps&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#next-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Now that you understand the available nodes, learn how to implement &lt;a href=&#34;http://localhost:1313/docs/flows/error-handling/&#34; &gt;Error Handling&lt;/a&gt; in your flows.&lt;/p&gt;
+    &lt;a href=&#34;#next-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Now that you understand the available nodes, learn how to implement &lt;a href=&#34;http://localhost:1313/autocrud-doc/docs/flows/error-handling/&#34; &gt;Error Handling&lt;/a&gt; in your flows.&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Error Handling</title>
-      <link>http://localhost:1313/docs/flows/error-handling/</link>
+      <link>http://localhost:1313/autocrud-doc/docs/flows/error-handling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/flows/error-handling/</guid>
+      <guid>http://localhost:1313/autocrud-doc/docs/flows/error-handling/</guid>
       <description>
         
         
@@ -620,17 +620,17 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2&gt;Next Steps&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#next-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Now that you&amp;rsquo;ve learned about error handling, explore how to &lt;a href=&#34;http://localhost:1313/docs/flows/monitoring/&#34; &gt;Monitor and Manage&lt;/a&gt; your flows for optimal performance.&lt;/p&gt;
+    &lt;a href=&#34;#next-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Now that you&amp;rsquo;ve learned about error handling, explore how to &lt;a href=&#34;http://localhost:1313/autocrud-doc/docs/flows/monitoring/&#34; &gt;Monitor and Manage&lt;/a&gt; your flows for optimal performance.&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Monitoring &amp; Management</title>
-      <link>http://localhost:1313/docs/flows/monitoring/</link>
+      <link>http://localhost:1313/autocrud-doc/docs/flows/monitoring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/flows/monitoring/</guid>
+      <guid>http://localhost:1313/autocrud-doc/docs/flows/monitoring/</guid>
       <description>
         
         
@@ -781,17 +781,17 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
 &lt;li&gt;Set up log retention policies&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Next Steps&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#next-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Now that you understand how to monitor and manage your flows, learn about &lt;a href=&#34;http://localhost:1313/docs/flows/variables/&#34; &gt;Variables and Data Handling&lt;/a&gt; to make your workflows more dynamic and flexible.&lt;/p&gt;
+    &lt;a href=&#34;#next-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Now that you understand how to monitor and manage your flows, learn about &lt;a href=&#34;http://localhost:1313/autocrud-doc/docs/flows/variables/&#34; &gt;Variables and Data Handling&lt;/a&gt; to make your workflows more dynamic and flexible.&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Variables &amp; Data Handling</title>
-      <link>http://localhost:1313/docs/flows/variables/</link>
+      <link>http://localhost:1313/autocrud-doc/docs/flows/variables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/flows/variables/</guid>
+      <guid>http://localhost:1313/autocrud-doc/docs/flows/variables/</guid>
       <description>
         
         
@@ -1061,10 +1061,10 @@ Backoff Multiplier: 2 (doubles delay after each retry)&lt;/code&gt;&lt;/pre&gt;&
     
     <item>
       <title>Tables &amp; Flows Integration</title>
-      <link>http://localhost:1313/docs/flows/tables-integration/</link>
+      <link>http://localhost:1313/autocrud-doc/docs/flows/tables-integration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/flows/tables-integration/</guid>
+      <guid>http://localhost:1313/autocrud-doc/docs/flows/tables-integration/</guid>
       <description>
         
         

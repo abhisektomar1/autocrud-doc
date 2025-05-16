@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AutoCRUD – Tables</title>
-    <link>http://localhost:1313/docs/tables/</link>
+    <link>http://localhost:1313/autocrud-doc/docs/tables/</link>
     <description>Recent content in Tables on AutoCRUD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	  <atom:link href="http://localhost:1313/docs/tables/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/autocrud-doc/docs/tables/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>Creating Tables</title>
-      <link>http://localhost:1313/docs/tables/overview/</link>
+      <link>http://localhost:1313/autocrud-doc/docs/tables/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/tables/overview/</guid>
+      <guid>http://localhost:1313/autocrud-doc/docs/tables/overview/</guid>
       <description>
         
         
@@ -249,10 +249,10 @@
 &lt;h2&gt;Next Steps&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#next-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Now that you&amp;rsquo;ve created your table, learn about:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/docs/tables/fields/&#34; &gt;Working with Fields&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/docs/tables/views/&#34; &gt;Creating and Managing Views&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/docs/tables/filters-sorting/&#34; &gt;Filtering and Sorting Data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/docs/tables/relationships/&#34; &gt;Setting Up Table Relationships&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/autocrud-doc/docs/tables/fields/&#34; &gt;Working with Fields&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/autocrud-doc/docs/tables/views/&#34; &gt;Creating and Managing Views&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/autocrud-doc/docs/tables/filters-sorting/&#34; &gt;Filtering and Sorting Data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/autocrud-doc/docs/tables/relationships/&#34; &gt;Setting Up Table Relationships&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -260,10 +260,10 @@
     
     <item>
       <title>Fields</title>
-      <link>http://localhost:1313/docs/tables/fields/</link>
+      <link>http://localhost:1313/autocrud-doc/docs/tables/fields/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/tables/fields/</guid>
+      <guid>http://localhost:1313/autocrud-doc/docs/tables/fields/</guid>
       <description>
         
         
@@ -363,10 +363,10 @@
     
     <item>
       <title>Table Views</title>
-      <link>http://localhost:1313/docs/tables/views/</link>
+      <link>http://localhost:1313/autocrud-doc/docs/tables/views/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/tables/views/</guid>
+      <guid>http://localhost:1313/autocrud-doc/docs/tables/views/</guid>
       <description>
         
         
@@ -596,10 +596,10 @@
 &lt;h2&gt;Next Steps&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#next-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Now that you understand views, learn about:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/docs/tables/filters-sorting/&#34; &gt;Filtering and Sorting Data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/docs/tables/fields/&#34; &gt;Working with Fields&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/docs/tables/relationships/&#34; &gt;Table Relationships&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/docs/flows/tables-integration/&#34; &gt;Automating with Tables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/autocrud-doc/docs/tables/filters-sorting/&#34; &gt;Filtering and Sorting Data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/autocrud-doc/docs/tables/fields/&#34; &gt;Working with Fields&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/autocrud-doc/docs/tables/relationships/&#34; &gt;Table Relationships&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/autocrud-doc/docs/flows/tables-integration/&#34; &gt;Automating with Tables&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -607,10 +607,10 @@
     
     <item>
       <title>Filters &amp; Sorting</title>
-      <link>http://localhost:1313/docs/tables/filters-sorting/</link>
+      <link>http://localhost:1313/autocrud-doc/docs/tables/filters-sorting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/tables/filters-sorting/</guid>
+      <guid>http://localhost:1313/autocrud-doc/docs/tables/filters-sorting/</guid>
       <description>
         
         
@@ -735,10 +735,10 @@
     
     <item>
       <title>Table Collaboration</title>
-      <link>http://localhost:1313/docs/tables/collaboration/</link>
+      <link>http://localhost:1313/autocrud-doc/docs/tables/collaboration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/tables/collaboration/</guid>
+      <guid>http://localhost:1313/autocrud-doc/docs/tables/collaboration/</guid>
       <description>
         
         
@@ -851,10 +851,10 @@
     
     <item>
       <title>Table Relationships</title>
-      <link>http://localhost:1313/docs/tables/relationships/</link>
+      <link>http://localhost:1313/autocrud-doc/docs/tables/relationships/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/tables/relationships/</guid>
+      <guid>http://localhost:1313/autocrud-doc/docs/tables/relationships/</guid>
       <description>
         
         
@@ -1017,7 +1017,7 @@
 &lt;h2&gt;Next Steps&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#next-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Now that you understand table relationships, learn about:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/docs/flows/tables-integration/&#34; &gt;Building Automated Workflows with Tables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/autocrud-doc/docs/flows/tables-integration/&#34; &gt;Building Automated Workflows with Tables&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
