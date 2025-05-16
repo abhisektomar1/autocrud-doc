@@ -8,8 +8,6 @@ params:
     logo:
       path: images/WordpressTransparent.png
       alt: AutoCRUD Logo
-      height: "32"
-      width: "auto"
 
   sidebar:
     enabled: true
