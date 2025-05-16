@@ -2,6 +2,18 @@ baseURL: https://abhisektomar1.github.io/autocrud-doc/
 languageCode: en-us
 title: AutoCRUD
 
+params:
+  description: Documentation and guides for AutoCRUD
+  navbar:
+    logo:
+      path: images/WordpressTransparent.png
+      alt: AutoCRUD Logo
+      height: "32"
+      width: "auto"
+
+  sidebar:
+    enabled: true
+
 module:
   hugoVersion:
     extended: true
@@ -37,13 +49,3 @@ menu:
       url: "https://github.com/imfing/hextra"
       params:
         icon: github
-
-params:
-  description: Documentation and guides for AutoCRUD
-  navbar:
-    logo:
-      path: /images/WordpressTransparent.png
-      alt: AutoCRUD Logo
-
-  sidebar:
-    enabled: true

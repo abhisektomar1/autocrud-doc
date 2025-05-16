@@ -20,7 +20,7 @@ dist/
 build/
 vendor/
 .cache/
-public/
+public
 
 # Environment files
 .env
