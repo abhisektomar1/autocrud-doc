@@ -4,9 +4,6 @@ description: Learn the basics of AutoCRUD
 weight: 2
 ---
 
-Version: Latest
-{{< /callout >}}
-
 Get started with AutoCRUD by understanding its core concepts and components.
 
 {{< cards cols="2" >}}
